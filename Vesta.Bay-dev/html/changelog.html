@@ -1,0 +1,675 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Vesta of Orion Changelog</title>
+  <link rel="stylesheet" type="text/css" href="changelog.css">
+  <base target="_blank" />
+  <script type='text/javascript'>
+  
+	function changeText(tagID, newText, linkTagID){
+		var tag = document.getElementById(tagID);
+		tag.innerHTML = newText;
+		var linkTag = document.getElementById(linkTagID);
+		linkTag.removeAttribute("href");
+		linkTag.removeAttribute("onclick");
+	}
+	
+  </script>  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<body>
+<table align='center' width='650'><tr><td>
+<table align='center' class="top">
+	<tr>
+		<td valign='top'>
+			<div align='center'><font size='3'><b>Vesta</b></font></div>
+			<div align='center'><font size='3'><b><i>A Space Station 13 Project, based on Baystation 12 Codebase</i></b></font></div>
+			
+			<p><div align='center'><font size='3'><a href="http://wiki.baystation12.net/">Wiki</a> | <a href="https://github.com/VestaOfOrion/Vesta.Bay">Source code</a></font></div></p>
+            <font size='2'>Code licensed under <a href="http://www.gnu.org/licenses/agpl.html">AGPLv3</a>. Content licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>.<br><br>
+			<font size='2'><b>Visit our IRC channels:</b> TBA</font><br>
+			<font size='2'><b>Join our Discord server:</b> <a href='https://discord.gg/sBzsswR'>-Click Here-</a><br></font>
+			<font size='2'><b>Support Vesta on Patreon:</b> <a href='https://www.patreon.com/'>-Click Here-</a><br></font>
+			</td>
+	</tr>
+</table>
+
+<br><b>Vesta.Bay Credit List</b>
+<table align='center' class="top">
+	<tr>
+		<td valign='top'>
+            <font size='2'><b>Developers:</b> Looreydev, Alanii, Jackofshepard, BurpleBineapple, Lamasmaster, r4iser, Superhats <br></font>
+			<font size='2'><b>Currently Active GitHub contributor list:</b> <a href='https://github.com/VestaOfOrion/Vesta.Bay/graphs/contributors'>-Click Here-</a><br></font>
+			<p><font size='2'><b>Credits:</b> Abi79, Apple_Master, Arcalane, Aryn, babydoll, Cael_Aislinn, Ccomp5950, chinsky, CompactNinja, Deus Dactyl, DopeGhoti, Erthilo, Flashkirby, Hawk_v3, Head, Ipsil, Invisty, JoeyJo0, Lexusjjss, Melonstorm, Miniature, mloc, NerdyBoy1104, PsiOmegaDelta, Searif, SkyMarshal, Snapshot, Spectre, Strumpetplaya, Sunfall, Tastyfish, Uristqwerty, Xenone, cib, faux, Zuhayr<br></p>
+			<font size='2'><b>Special thanks to:</b> The developers of baystaion12, /tg/station, /vg/station, GoonStation, the original Space Station 13, and BYOND</font>
+			<div align='center'><font size='2' color='red'><b><br>Have a bug to report?</b> Visit our <a href="https://github.com/VestaOfOrion/Vesta.Bay/issues/new/choose">Issue Tracker</a>.<br></font></div>
+		</td>
+	</tr>
+</table>
+
+<br><b>Baystation 12 Credit List</b>
+<table align='center' class="top">
+	<tr>
+		<td valign='top'>
+            <font size='2'><b>Developers:</b> afterthought, chinsky, F-Tang Steve, mloc, PsiOmegaDelta, xales<br></font>
+			<font size='2'><b>Currently Active GitHub contributor list:</b> <a href='https://github.com/Baystation12/Baystation12/graphs/contributors'>-Click Here-</a><br></font>
+			<p><font size='2'><b>Credits:</b> Abi79, Apple_Master, Arcalane, Aryn, babydoll, Cael_Aislinn, Ccomp5950, chinsky, CompactNinja, Deus Dactyl, DopeGhoti, Erthilo, Flashkirby, Hawk_v3, Head, Ipsil, Invisty, JoeyJo0, Lexusjjss, Melonstorm, Miniature, mloc, NerdyBoy1104, PsiOmegaDelta, Searif, SkyMarshal, Snapshot, Spectre, Strumpetplaya, Sunfall, Tastyfish, Uristqwerty, Xenone, cib, faux, Zuhayr<br></p>
+			<font size='2'><b>Special thanks to:</b> The developers of /tg/station, /vg/station, GoonStation, the original Space Station 13, and BYOND</font>
+			<div align='center'><font size='2' color='red'><b><br>Have a bug to report?</b> Visit our <a href="https://github.com/Baystation12/Baystation12/issues?labels=Bug&state=open">Issue Tracker</a>.<br></font></div>
+		</td>
+	</tr>
+</table>
+
+		<!--
+		
+		TO ADD AN ENTRY, ADD AND MAINTAIN YOUR OWN changelog/USERNAME.yml FILE. 
+		
+		*** DO NOT MODIFY THIS FILE OR YOU WILL CAUSE MERGE CONFLICTS. ***
+		
+		-->
+		<div class="commit sansserif">
+
+			<h2 class="date">28 January 2021</h2>
+			<h3 class="author">EvenInDeathIStillServe updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Adds a new music radio, an alternative to the boombox, that can be bought through supply.</li>
+			</ul>
+
+			<h2 class="date">27 January 2021</h2>
+			<h3 class="author">Alanii updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="imageadd">Added I symbol to closets.dmi for Infantry.</li>
+				<li class="tweak">Changed the 'S' to new 'I' for infantry lockers.</li>
+			</ul>
+			<h3 class="author">Electric updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="maptweak">Add 200 sheets of aluminum and a powerloader with mech charging bay to the merchant outpost.</li>
+			</ul>
+			<h3 class="author">EmberShinori updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">Added back extended combi-knife functionality from pre-rebayse.</li>
+				<li class="tweak">Allows genemodders to become most off-ship roles.</li>
+				<li class="tweak">Added materials to a few items so that they can be recycled in the autolathe, primarily trash items.</li>
+			</ul>
+			<h3 class="author">EvenInDeathIStillServe updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">SFP Bodyguard can pick the Agent's jacket in loadout.</li>
+				<li class="tweak">Gives a silver-lined boatcloak option for fleet SNCOs, Warrants and Officers in the uniform vendor.</li>
+				<li class="rscadd">Re-added AI drone shells, AI helm control, and interacting with offmaps they have camera coverage on (shuttles).</li>
+			</ul>
+			<h3 class="author">Lamasmaster updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="maptweak">Makes Skipjack able to dock onto Dagon again.</li>
+			</ul>
+			<h3 class="author">Pebblesthe2nd updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">New icons for a lot of suits, tired seeing just onmob sprites.</li>
+			</ul>
+			<h3 class="author">PurplePineapple updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">Updates Punitelli's death counter.</li>
+				<li class="rscadd">Added an unlocked suit cycler for offships.</li>
+				<li class="tweak">The Bearcat now has an unlocked suit cycler and the armory has been given slightly better weaponry than bolt actions.</li>
+				<li class="bugfix">Removed the doors in the wall of the Bearcat's atmospherics room.</li>
+				<li class="bugfix">The secure storage of the bearcat now is locked to Captain access.</li>
+				<li class="bugfix">Gives APA the correct locker access.</li>
+				<li class="bugfix">Gives SGR and Liaison their camera access back</li>
+			</ul>
+			<h3 class="author">Superhats updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="imageadd">Added a bunch of new skirt options, courtesy of Valentine1488</li>
+			</ul>
+			<h3 class="author">Yawet330 updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">Reverts VHBraz's PR involving polytools.  https://github.com/VestaOfOrion/Vesta.Bay/pull/317</li>
+			</ul>
+			<h3 class="author">listerla (Ported from Aurora) updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Added Skrellian gill covers to loadout under Xenowear</li>
+			</ul>
+			<h3 class="author">theunlovedrock updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">Nurse is now an alt title for physician instead of medical resident.</li>
+			</ul>
+
+			<h2 class="date">14 January 2021</h2>
+			<h3 class="author">Alejodbort updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Adds sprites on hand for the both tablets in both hands.</li>
+			</ul>
+			<h3 class="author">Electric updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">Expanded access for SGR, CL, and their bodyguards. They all have basic department accesses and can enter the hangar. SGR and CL can swipe for code red.</li>
+				<li class="tweak">SEA has security door access.</li>
+			</ul>
+			<h3 class="author">EvenInDeathIStillServe updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="bugfix">Fixes chocolate milk cartons. AGAIN.</li>
+			</ul>
+			<h3 class="author">Firefox13 updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Stop All Sounds button that stops all sounds is added to OOC tab.</li>
+				<li class="bugfix">There was a slight mishap when resetting your blood color in 'Genemods' section wouldn't reset it to standard human red. Now it's fixed.</li>
+				<li class="bugfix">Engineering doors and cameras in robotics are no more, they're properly research now.</li>
+				<li class="bugfix">Extra camera in PADV office removed, existing camera fixed(engineers could access it for some reason).</li>
+			</ul>
+			<h3 class="author">Hekzder updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Added body scanner to Bearcat and Established Colony.</li>
+				<li class="rscadd">Added a role slot to Established Colony and Ship Colony, added two role slots to Bearcat.</li>
+				<li class="rscadd">Added two more voidsuits and one more jetpack to compensate for more roles on the Bearcat.</li>
+				<li class="tweak">Bearcat members, Colonists, and Crashed Survivors now have better minimum skills but less free skill points to spend. All roles have an overall net increase in skill points.</li>
+				<li class="rscadd">Specialization alt-titles for medical and engineering to Bearcat and Colonies.</li>
+				<li class="tweak">Ship colony spawn weight slightly decreased, established colony spawn weight slightly increased.</li>
+			</ul>
+			<h3 class="author">Jaroski updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">Marine patches tweaked to be opposite shoulder of dagon patch.</li>
+				<li class="bugfix">Marine patches now actually appear onmob</li>
+				<li class="maptweak">The Pool has been lovingly(?) redone. Rejoice!</li>
+			</ul>
+			<h3 class="author">Pebblesthe2nd updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">New organs for Skrell, Unathi, Vox, GAS. No more invisible organs/body parts.</li>
+				<li class="rscadd">Mining drills red, various tweaks for more consistent outlines, shading.</li>
+				<li class="rscadd">code/modules/clothing/glasses/prescsun.dm added to baystation12.dme, enabling sorting sunglasses and prescription sunglasses in two subcategories just like ordinary glasses.</li>
+				<li class="rscadd">New glasses, sunglasses, sprites and objects, updates to realted old sprites. Minor restructure in loadout, two new subgroups, sunglasses and prescription sunglasses.</li>
+				<li class="rscadd">Update pass to ensure a large number of new sprites follow quality standards regarding palettes, saturation, outlines. Adds animation for camera, could not solve code. Adds missing onmob sprite for Plasma Pulse gun.</li>
+			</ul>
+			<h3 class="author">PurplePineapple updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="bugfix">Fixed shuttles being manually landable at Trained instead of Experienced.</li>
+				<li class="tweak">CMO and CSO can choose O-5 again.</li>
+				<li class="tweak">Surgeon and Scientist can choose O-4 again. Surgeon's minimum rank is O-3 again.</li>
+				<li class="tweak">Medical Resident can be O-2 again.</li>
+				<li class="tweak">Removed the time limit on mind reading with psionics.</li>
+				<li class="tweak">Allows IPCs of all types to select SFP as a faction and branch.</li>
+				<li class="tweak">Loadout accessories have been organized into plate carriers, pouches, large pouches, and UBAC categories.</li>
+				<li class="rscadd">New categories to the uniform dispenser for Navy Utilities and Urban Utilities. Green is the default.</li>
+			</ul>
+			<h3 class="author">Slywater updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="bugfix">Fixes the AI eye not connecting to any camera networks</li>
+				<li class="rscadd">Allows items to be pushed along tabletops by dragging and dropping their sprites.</li>
+				<li class="rscadd">Added a cryo pod to the vox offship dorms.</li>
+			</ul>
+			<h3 class="author">Superhats updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Ascent rigs now have built-in cooling units.</li>
+				<li class="rscadd">Thanks to increases in budget, ascent drones now have some extra toys to play with.</li>
+				<li class="tweak">MSQs should now die slightly slower when you punch them.</li>
+			</ul>
+			<h3 class="author">Vhbraz updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Overmap movement is now pixel based. All credits go to Loaf</li>
+				<li class="rscadd">Skrellian uniforms have been added to the Loadout screen under Xenowear</li>
+				<li class="maptweak">Fixes missing SSV buttons</li>
+				<li class="bugfix">Tintable windows now return to their base color when un-tinted. All credits go to SierraKomodo.</li>
+				<li class="tweak">Makes the original window color closer to the old one. All credits go to SierraKomodo.</li>
+				<li class="maptweak">Changes the SSV-S airlock pipes a little in order to make them work better.</li>
+				<li class="tweak">Skrellian combat belts can now hold their shields.</li>
+				<li class="maptweak">SSV now has sleepers</li>
+			</ul>
+			<h3 class="author">gilvian updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">adds a really weird and abstract exoplanet structure.</li>
+			</ul>
+			<h3 class="author">lamasmaster updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="maptweak">Cargo elevator now has railings and shutters so you cannot fall down (You will probably still do that lets be honest).</li>
+				<li class="maptweak">Wider merchant dock.</li>
+				<li class="maptweak">Rearranged messhall to have few more tables and moved the vendors closer to hydroponics.</li>
+				<li class="maptweak">Little nicer officer mess.</li>
+				<li class="maptweak">Gives chef mailing equipment.</li>
+				<li class="rscadd">Gives bartender back his shotgun.</li>
+				<li class="maptweak">Annual security armory tweak now with one less carbine but one more stunrifle.</li>
+				<li class="bugfix">CoS hardsuit needs their ID access again.</li>
+				<li class="bugfix">Removed CoS weapon box.</li>
+				<li class="bugfix">Added back weapon boxes for both SEAs.</li>
+				<li class="maptweak">Updated the carpets in SCGrs and CLs office with splices.</li>
+				<li class="maptweak">Makes Aux storage little more pleasant to look at (and for engineers to repair).</li>
+				<li class="maptweak">Removes excessive amount of smartguns from second bridge and adds few more turrets.</li>
+			</ul>
+
+			<h2 class="date">05 January 2021</h2>
+			<h3 class="author">EvenInDeathIStillServe updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="bugfix">Adds icons to handdrills.</li>
+				<li class="rscadd">Engineering duty gloves spawn in engineering lockers.</li>
+				<li class="rscadd">Hand drill spawns in Engi-Vend, SE and CE lockers.</li>
+				<li class="rscadd">Boron fusion, and colored R-UST.</li>
+				<li class="rscadd">Adds maglights to autolathe designs.</li>
+				<li class="rscadd">Auto-merging of stacks on the same tile, when dragged, dropped or spawned.</li>
+				<li class="rscadd">Painting light tubes/bulbs with a paint gun.</li>
+				<li class="tweak">You can unwrench high-pressure pipes, but with a long delay.</li>
+				<li class="tweak">Matter cartridges can be partially loaded into an RCD to top it up.</li>
+				<li class="bugfix">Chocolate milk carton should have chocolate milk now AND NOT NORMAL MILK.</li>
+			</ul>
+			<h3 class="author">Gilvian updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">Adds Binos and GPS to colony and ascent seedship.</li>
+			</ul>
+			<h3 class="author">Hekzder updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscdel">Senior Researcher has been removed.</li>
+				<li class="rscdel">SMC Attache has been removed.</li>
+				<li class="rscadd">SMC Senior Enlisted Advisor has been re-added.</li>
+				<li class="maptweak">SMC Attache office changed to SMC Senior Enlisted Advisor office.</li>
+				<li class="tweak">CMO and CSO can no longer take O-5 as a rank.</li>
+				<li class="tweak">Physician now has rank options of O-2 and O-3.</li>
+				<li class="tweak">Bridge Officer, Chaplain, and Resident can no longer take O-2 as a rank.</li>
+				<li class="tweak">Roboticist now has rank options of E-5, E-6, E-7, W-1, and W-2.</li>
+				<li class="tweak">Research Assistant now has rank options of E-2, E-3, E-4, E-5.</li>
+				<li class="tweak">Scientist can no longer take O-4 as a rank.</li>
+				<li class="tweak">Crewman, Cook, and Janitor can no longer take E-5 as a rank.</li>
+				<li class="tweak">Deck Chief can now take W-3 as a rank.</li>
+				<li class="tweak">Senior Engineer now has rank options of E-7, E-8, W-1, W-2, and W-3 and has had minimum age increased to 30.</li>
+				<li class="tweak">Shuttle Pilot now has rank options of E-6, E-7, W-1, and W-2.</li>
+				<li class="tweak">Chief Engineer now has rank options of O-3 and O-4.</li>
+				<li class="bugfix">PADV is now properly Command Support.</li>
+				<li class="bugfix">The display order of SEA ranks for both SMC and NTEF are more proper.</li>
+				<li class="bugfix">Roboticist now has a proper job description.</li>
+				<li class="bugfix">Nurse alt-title is back after being removed by the Bay merge in a plot against Danielle Taylor.</li>
+				<li class="rscadd">Adds E-6 to Engineer to fix a rank gap present in Engineering.</li>
+				<li class="tweak">Changes the SMC SEA hud icon from sharing the same as NTEF SEA to using a green version instead.</li>
+				<li class="rscadd">Chaplain gets O-2 again since BO gets it as well.</li>
+				<li class="rscadd">Lab Tech can now be SMC and NTEF at ranks of W-1, W-2, O-1, and O-2.</li>
+				<li class="rscadd">Prospector can now be NTEF at ranks of E-3, E-4, and E-5.</li>
+				<li class="tweak">Removes Warrant Officer as Marine W-1. Shifts Second and First Warrant officer down to compensate. Master Warrant Officer added at W-3.</li>
+				<li class="tweak">Reverts Bay's voting system change to go back to our old voting system from pre-Rebayse Vesta/Hestia. Visible vote percentages are now back.</li>
+				<li class="bugfix">Adherents are no longer the filthiest beings on the planet and will not constantly infect patients during surgery.</li>
+				<li class="tweak">Increased Crashed Survival Pod slots to 3 from 2. Mapping to accomodate like increased spawn points and another emergency locker.</li>
+				<li class="tweak">Roboticist and Squad Lead now have +2 skill points.</li>
+				<li class="tweak">CMO, Resident, Medical Technician, Scientist, Combat Technician, and Bridge Officer now have -2 skill points.</li>
+				<li class="tweak">Physician now has -4 skill points.</li>
+				<li class="tweak">Psionic Advisor now has -6 skill points.</li>
+				<li class="maptweak">Adds lights to various spots around D1 and B deck to fix dark spots.</li>
+				<li class="maptweak">Replaces coffee dispenser in SMC SEA office with a disposals chute, gives them the same bookcase the NTEF SEA has, a light in the western part of their office, an overall office expansion, a photocopier, shredder, and a potted plant.</li>
+				<li class="maptweak">Gives the PADV a disposals chute, photocopier, shredder, paper bin, and a couple folders. Loses his tea set and a chair outside of his office in exchange.</li>
+				<li class="maptweak">SGR had some of their tool related things moved to their back room but got a photocopier and shredder as a result.</li>
+				<li class="maptweak">Adds a photocopier, shredder, and a wall mounted filing cabinet to the Medical exam room, and a shredder to the Counselor's office.</li>
+				<li class="maptweak">Adds a photocopier to the Polyp.</li>
+				<li class="maptweak">Adds a photocopier and shredder to the NTEF SEA office, changes his filing cabinet drawer to wall-mounted to save space.</li>
+				<li class="maptweak">Adds an ATM north of the PADV office and between the Medical exam room and Counselor's office.</li>
+				<li class="bugfix">The SMC SEA's office door control now actually controls his office door, instead of the NTEF SEA's office door.</li>
+			</ul>
+			<h3 class="author">Jaroski updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">Security's medical skills are now capped at basic.</li>
+				<li class="tweak">Brig Chief is now able to take Trained Medical.</li>
+				<li class="tweak">CoS is now able to take Trained Medical and Anatomy</li>
+				<li class="tweak">FTECH can now take Trained Anatomy</li>
+			</ul>
+			<h3 class="author">Pebblesthe2nd updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">New sprites for various devices and melee weapons. Reason: Use themes/palettes, consistent scales/sizes.</li>
+				<li class="rscadd">Updated onmob and icon sprites from 180 at request of Lamasmaster. Added sprites for leatherboots black and brown, also Ascent binoculars.</li>
+				<li class="rscadd">Bunch of tools polished. Main thing Eris jackhammer modified and used for hand drills. New Explorer shotgun. New Plasma stun gun sprite, and Ascent locator sprite.</li>
+				<li class="rscadd">Recolouring chemistry machines. New sprites for Spectrometer and Reagent Scanner. Icon animations added for use for someone who knows how to do item code.</li>
+				<li class="rscadd">Reverts to old pill bottle. Makes mining drills chunkier. Various tweaks of 196 and 197. For the good of all mankind.</li>
+				<li class="rscadd">Tools, Device, Chemistry, IV dmis cleaned up. Multitool centered. Minor tweaks to a couple of the new sprites. Suits.dmi minor cleanup, sorting, couple tweaked jackets, see pic for details.</li>
+			</ul>
+			<h3 class="author">PurplePineapple updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Added Legalese back into the game as an obtainable language.</li>
+				<li class="tweak">Added O-2 back to bridge officers.</li>
+				<li class="bugfix">Fixed areas on D5 fore and added doors to the maintenance halls outside infantry prep.</li>
+				<li class="tweak">Changes Robotics doors to be science coloured and changes Aux Security Storage to be blue.</li>
+				<li class="rscadd">Adds the Federal Protection Agent as a SGR asset protection role. The job slot only spawns if a SGR is playing.</li>
+				<li class="rscadd">Adds the FPA locker to the SGR's ready room.</li>
+				<li class="tweak">Gives the FPA and the corporate APA a normal gunbox instead of a compact smartgun.</li>
+				<li class="tweak">Allows the FPA and APA to pick master CQC and Weapons Expertise.</li>
+				<li class="rscadd">Added an armor box to the APA/FPA lockers with a selection between light and medium armor.</li>
+				<li class="tweak">Allows FPA to use normal SFP options in the loadout menu.</li>
+			</ul>
+			<h3 class="author">Spum updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">after struggling with basic github problems and breifly questioning my life choices, I have added a large amount of random loot to the merchant station as well as a bit of extra money because we're in a space recession</li>
+			</ul>
+			<h3 class="author">Superhats updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">After a botched lawsuit from the FTU, Vox are now once again allowed to work as merchants.</li>
+				<li class="tweak">Someone spilled juice on the armalis dispenser, but we fixed it. Armalis are once again playable, for whitelisted players only.</li>
+				<li class="tweak">Consequently, armalis stats have been brought down to their pre-rebayse values.</li>
+				<li class="tweak">Merchant spawn chance has been cranked up to a hundred, from 30%.</li>
+				<li class="admin">Monarch Serpentid Queen now requires the Gyne whitelist.</li>
+				<li class="tweak">Thanks to budget increases, the psionic advisor now gets two more vials of jerraman.</li>
+			</ul>
+			<h3 class="author">Vhbraz updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">A new drink has been added to the Booze-O-Mat. Not recommended for human consumption.</li>
+				<li class="tweak">Grenade fragment damages have been re-adjusted to be more lethal.</li>
+				<li class="tweak">Fixes issues with prospector ID cards & headsets.</li>
+				<li class="maptweak">Cent-com can no longer be reached by merchants.</li>
+				<li class="maptweak">More randomized loot spawns have been added inside the Merchant's base.</li>
+				<li class="bugfix">Fixes a minor fucky-wucky with the QX-2 miniaturized railgun sprite.</li>
+				<li class="maptweak">Fixes some atmos problems with the SSV's air tanks. Removes some exterior bits that were bugging out.</li>
+				<li class="tweak">The skrellian combat belt can now PROPERLY holster the XV-5 through the holster verb.</li>
+				<li class="maptweak">A completely new SSV map has been added alongside a new shuttle</li>
+				<li class="tweak">Numerous SSV weapons have received name tweaks as per how they were on Vesta</li>
+				<li class="rscadd">The QX-2 Miniaturized Railgun has been re-added with some changes. Credits for the sprites go to Lamasmaster</li>
+				<li class="rscadd">Skrellian Shields have been added. Credits for the sprites go to Memed Hans.</li>
+				<li class="imageadd">Skrellian RIG sprites have been tweaked to be the same as Vesta's</li>
+				<li class="imageadd">Skrellian gas synthesizers and fusion power cell sprites have been tweaked to be the same as Vesta's</li>
+				<li class="tweak">The Skrellian Energy Machete has been tweaked to deal the same damage as an energy sword.</li>
+			</ul>
+			<h3 class="author">Yawet330 updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">454MM Adjusted to be less of a viable weapon designed to kill.</li>
+				<li class="rscadd">Adds the 454 back to the autolathe (AMMO)</li>
+				<li class="tweak">454 round buffed back up to 50 damage, ranged accuracy falloff decreased. :agony:</li>
+				<li class="tweak">454 round cost decreased on request of Purple</li>
+			</ul>
+			<h3 class="author">lamasmaster updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">Removes regular Jackboots and replaces them with Knee and Thigh variants.</li>
+				<li class="tweak">Buffs all boots up to same level as tactical (SMC) boots.</li>
+				<li class="soundadd">Adds back all hestia specific sounds.</li>
+				<li class="rscadd">New Security Colors, that being dark blue.</li>
+				<li class="tweak">Shuttle pilot and command support have new security HUD Icons to match their departments.</li>
+				<li class="maptweak">Darker brig.</li>
+				<li class="rscadd">Two new aurora hairstyles Ponytail-wisp and Ponytail-spiky.</li>
+				<li class="tweak">Long braid no longer makes you look like your are balding.</li>
+				<li class="tweak">Duty gloves and jacket for security have the correct color now.</li>
+				<li class="bugfix">Fixed infantry locker decals.</li>
+				<li class="bugfix">Unathi sprite for SMC urban uniform.</li>
+				<li class="rscadd">Navy boots and gloves for SMC.</li>
+				<li class="rscdel">Removed desert - tan boots from loadout.</li>
+				<li class="bugfix">Cloaks use correct sprites again.</li>
+				<li class="spellcheck">Knee Jackboots not Jackboot.</li>
+			</ul>
+			<h3 class="author">thatguyfromlife updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Added Nurse's hats to medical loadouts.</li>
+			</ul>
+
+			<h2 class="date">29 December 2020</h2>
+			<h3 class="author">BladeburstNINJA updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="maptweak">Adds Skrell, Unathi, Yeosa, Shells, Tajaran, and Genemodders to Verne.</li>
+			</ul>
+			<h3 class="author">Firefox13 updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Added ponytail 7 alt and half-pati hairstyles, again.</li>
+				<li class="rscadd">IPCs and literally everyone else now can take 'Bald' hairstyle due to updated SMC and NTEF grooming standards. Rejoice!</li>
+			</ul>
+			<h3 class="author">Gilvian updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">readds atmos alarms onto merchant shuttle.</li>
+				<li class="rscadd">some aluminium sheets for merchant so they dont have to destroy light bulbs to make radios.</li>
+			</ul>
+			<h3 class="author">Hekzder updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Paygrades have been added to all ranks to view in character setup and crew records.</li>
+			</ul>
+			<h3 class="author">MemedHams updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">Changed power generation of Mantid Fusion Stack from 9000 kilowatts to 45 megawatts, restoring previous</li>
+			</ul>
+			<h3 class="author">Mr.Kieubasa updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">Allows proper researchers to equip material goggles roundstart, it was only possible for research assistants until now.</li>
+			</ul>
+			<h3 class="author">N8-Toe updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Gave Tritonians their gills back</li>
+			</ul>
+			<h3 class="author">PurplePineapple updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Adds a new landing only shuttle to the bearcat with enough space for 5 people.</li>
+				<li class="rscadd">Adds a functioning fission generator to the Bearcat's engineering department.</li>
+				<li class="rscadd">Fixes all damage to the aft of the Bearcat, allowing players to be able to fix it and fly around early into the round.</li>
+				<li class="tweak">The Bearcat's generator should be enough to last the ship on low engine use even without solars now.</li>
+				<li class="rscadd">Adds a mini armory to the Bearcat with 3 Mosin Nagant rifles and 3 pistols.</li>
+				<li class="rscadd">Adds elevator music to the elevator.</li>
+				<li class="rscdel">Removes the Psi-Advisor's briefcase revolver.</li>
+				<li class="rscdel">New alert screens have been removed in favor of the original.</li>
+				<li class="rscdel">Removes blackout when unconscious.</li>
+				<li class="bugfix">Fixes Fleet uniform icons.</li>
+				<li class="tweak">Gives all jobs 8 flat skill points. Research jobs and Bridge Officer have been given slightly extra due to their low starting skills.</li>
+				<li class="tweak">The SolGov Flag banner has been changed to Hangar access instead of Pathfinder access, meaning anyone with access to the Gaunt can deploy flags.</li>
+				<li class="bugfix">Fixes mentions of SEV, Charon, and Expeditionary Corps in the summary documents.</li>
+				<li class="tweak">Sets the EPP pistol's accuracy to 3 (default pistol value) and gives it 5 charges.</li>
+				<li class="rscadd">Adds the snapping audible emote.</li>
+				<li class="tweak">Gives the security voidsuit its Hestia armor values.</li>
+				<li class="bugfix">Changes the Dagon overmap to NTEF instead of SCGEC.</li>
+				<li class="tweak">Gives the CSO access to pilot the Dagon.</li>
+				<li class="tweak">Changes CQC mechanics to take into account CQC skill and face armor.</li>
+				<li class="tweak">Gives security guards/brig chief/FT access to the hangar like medical/engineering.</li>
+				<li class="bugfix">Corrects the corporate security berets to be selectable by PCRC/SAARE players.</li>
+				<li class="tweak">Gives research maintenance access.</li>
+				<li class="tweak">Gives PADV holster options.</li>
+			</ul>
+			<h3 class="author">Superhats updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">Awakening psionics with jerraman no longer fries your brain.</li>
+				<li class="tweak">Jerraman now has a recipe.</li>
+				<li class="tweak">Psychokinetics' tinker ability is now available at Operant level.</li>
+				<li class="tweak">Adherents are no longer whitelisted.</li>
+			</ul>
+			<h3 class="author">Torque4607 updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="bugfix">Bridge officers can now open the bridge gun lockers. Almost like magic.</li>
+				<li class="bugfix">The SEA can now use his own fax machine instead of just staring in awe at the very expensive paperweight.</li>
+				<li class="tweak">removed gas, diona, adherents from being able to be antagonists</li>
+			</ul>
+			<h3 class="author">Yawet330 updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">Makes cable coils print in stacks of 30 again</li>
+			</ul>
+			<h3 class="author">gilvian updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">adds 2 exoplanet ruins.</li>
+			</ul>
+			<h3 class="author">lamasmaster updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="bugfix">Makes cloaks attachable to most armors again.</li>
+				<li class="tweak">Changed Green fatigues to Urban for SMC in loadout.</li>
+				<li class="maptweak">Fixes spacing Supply Sorting.</li>
+				<li class="bugfix">Removes secondary gunbox from lockers in security.</li>
+				<li class="rscadd">Added boarding control room on B-deck.</li>
+				<li class="maptweak">Fixes the bolting issue with solitary cell.</li>
+				<li class="maptweak">Adds light switch and light to the room before solitary cell.</li>
+				<li class="maptweak">Fixed random reinforced walls in brig.</li>
+				<li class="maptweak">Fixed aquila starting undocked.</li>
+				<li class="maptweak">Readjusted security auxilary storage room empty racks.</li>
+				<li class="maptweak">Fixed rogue solflag in SGR office.</li>
+				<li class="maptweak">Renamed all shuttles to their Hestia names.</li>
+				<li class="tweak">Compact smartguns no longer spawn in MA lockers but instead gunboxes.</li>
+				<li class="tweak">BC and CoS got their authorized smartguns replaced with gunboxes.</li>
+				<li class="maptweak">CoS office properly renamed to CoS not HoS.</li>
+				<li class="maptweak">Reshuffled brig locker room to contain an accessory vendor for security.</li>
+			</ul>
+			<h3 class="author">vhbraz updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">A SM shard can now be ordered via Cargo. By Bay12 user RustingWithYou.</li>
+			</ul>
+
+			<h2 class="date">23 December 2020</h2>
+			<h3 class="author">Firefox13 updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="bugfix">Gives NTEF Members skill patches</li>
+				<li class="rscadd">Adds WASD hotkeys for rotating and locking face direction</li>
+			</ul>
+
+			<h2 class="date">22 December 2020</h2>
+			<h3 class="author">Alani updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">Replaced 'baystation 12' with 'Vesta of Orion.'</li>
+				<li class="tweak">Changed job descriptions and supervisors to match Dagon/NT/NTEF/SMC.</li>
+				<li class="tweak">Changed email paths to make some more sense, removed meme oorah mail title from SMC.</li>
+				<li class="tweak">Added 'Off-Duty' 'Intern' and 'Assistant' to Passenger role alternate titles.</li>
+				<li class="tweak">Removes Liasion Bodyguard's responibility to 'obey the law' when protecting their charge.</li>
+			</ul>
+			<h3 class="author">Alanii updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">Replaced 'hands' to 'personnel' in announcements.'</li>
+				<li class="tweak">Replaced the 'solgov' logo with the NTEF logo in sensor readings.</li>
+			</ul>
+			<h3 class="author">Lamasmaster updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="maptweak">Readded equipment into tactical and SECARM</li>
+				<li class="maptweak">Removes most solgov logos on the ship and adds NT crests on shuttles</li>
+			</ul>
+			<h3 class="author">Pebblesthe2nd updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Added Unathi staff sprites. Onmob rhand, lhand, on back, staff_unathi and _other suffix for non unathi. Offmob sprite in icons/obj/weapons/melee_physical.dmi , same format.</li>
+				<li class="rscadd">New sprites solar panels. Very minor adjustments powercells & suit cooler.</li>
+				<li class="rscadd">New sprite binoculars, flaregun. Modified sprites taperoll, locator, oxycandle. Reason: Looks better & fits theme.</li>
+			</ul>
+			<h3 class="author">Peekaboom updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">Increased flavor text max_lenght in 2967 and paragraphs from 0 to 5.</li>
+				<li class="rscadd">Added job whitelist system.</li>
+				<li class="tweak">Squad Leader role is now whitelisted.</li>
+				<li class="tweak">Removed non-voters being counted as Extended votes.</li>
+				<li class="bugfix">Fixed loadout selection problem to various branches and jobs.</li>
+				<li class="tweak">Boot selections are now free for everyone.</li>
+				<li class="tweak">Increased all players psionics changes to 5%.</li>
+				<li class="bugfix">Fixed bug stoppping psionics latents to be latents.</li>
+				<li class="rscadd">Added custom name and description option to all loadout items.</li>
+				<li class="rscadd">Adds SPECIES_NO_LACE flag to species that are not compatible with Neural Laces.</li>
+				<li class="rscadd">Adds routines to Resleever for species with SPECIES_NO_LACE flag.</li>
+				<li class="tweak">Removed whitelist from Diona, Machine, GAS, Skrell, Unathi and Adherent.</li>
+				<li class="tweak">Added PADV access to psi_monitor.</li>
+				<li class="rscadd">Added Fix Sign-In Bug verb to OOC tab.</li>
+				<li class="tweak">Fixed PR 66. Now Diona, Machine and GAS doesnt requires whitelist.</li>
+				<li class="tweak">Added Infantry Channel to XO and CO.</li>
+			</ul>
+			<h3 class="author">PurplePineapple updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">Reverts blindness while unconscious, you can now see a small circle around you.</li>
+				<li class="rscadd">Adds space lube back into the game.</li>
+				<li class="rscdel">Removes tan/urban marine uniforms. Green accessories are a separate category now.</li>
+				<li class="tweak">Restricts all UBAC/pouches/plate carriers to UNIFORMED_BRANCHES. Grey plate carriers are for civilians.</li>
+				<li class="bugfix">Changes in game year to 2564.</li>
+				<li class="rscadd">Added Unathi navy fatigues.</li>
+				<li class="bugfix">Sleepers now have working icons.</li>
+				<li class="bugfix">Added uniforms_exp_fleet.dm back to the torch.dm includes.</li>
+			</ul>
+			<h3 class="author">Vhbraz updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">The 'Occcupations' screen has been tidied up.</li>
+				<li class="tweak">The Roboticist is now part of the Research department. Access has been tweaked accordingly.</li>
+				<li class="tweak">The Roboticist now has access to the medical lobby and to the Operating Theaters</li>
+				<li class="rscadd">The Biomechanical Technician alt title has been re-added to the Roboticist.</li>
+				<li class="rscdel">The Biomechanical Technician medical job has been removed.</li>
+				<li class="tweak">The selection of weapons being able to be purchased by the Merchant has been increased</li>
+				<li class="maptweak">Fixes Supply not having wire and pipe connections</li>
+				<li class="maptweak">The d3 dormitories have been reworked.</li>
+				<li class="maptweak">Mess now has a MRE vendor.</li>
+				<li class="maptweak">The hot drinks machine in D3 has been moved inside Mess</li>
+				<li class="maptweak">Minor map changes to the garden and to the bunk rooms on D3.</li>
+				<li class="maptweak">The Dagon's mess hall has undergone some map changes.</li>
+			</ul>
+			<h3 class="author">lamasmaster updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="bugfix">Fixes broken onmob sprite for Z9b.</li>
+				<li class="tweak">Slightly adjusts armor values on ascent support rigs.</li>
+				<li class="rscdel">Removed MindBatterer.</li>
+				<li class="rscadd">Zaphorozian language added back, previously known as neo-cossack, now uses ,v instead of ,c</li>
+				<li class="rscadd">Pan-slav is now called Gilgamesh Confederate Standard</li>
+				<li class="rscdel">Deleted EC EXO SCGF and GCC as they arent used in our lore.</li>
+				<li class="rscadd">Added NTEF and SMC with UCG as pickable faction</li>
+				<li class="rscadd">Changed Gaia to Aigiaion and Terra to Komarov</li>
+				<li class="rscadd">Solarian Marine Corps is now recognized as uniformed branch for purposes of loadout.</li>
+				<li class="tweak">EC equipment renamed to SC for purposes of lore.</li>
+				<li class="rscdel">Removes 10mm military ballistic pistol from the equipment box MaAs get.</li>
+				<li class="tweak">Renamed default lawset to NTEF Expeditionary and changed references to SCG.</li>
+				<li class="tweak">Renamed military lawset to NT Military and changed references to SCG.</li>
+				<li class="tweak">Put factions in sensible order SCG>NT>UCG>Contractors>Companies.</li>
+				<li class="rscadd">Added SFP faction to backgrounds.</li>
+				<li class="rscadd">Added Generic Synth faction.</li>
+				<li class="tweak">Changed Positronic union PU to Synthetic union SU.</li>
+				<li class="rscadd">Regular IPCs can now be SMC in backgrounds.</li>
+				<li class="rscadd">Added most of equipment from hestia to ascent.</li>
+				<li class="tweak">Psionics now have 5% latency chance and can no longer give random paramount.</li>
+				<li class="tweak">Removes compacts and smartguns from MA/FT CoS/BC lockers respectivly.</li>
+				<li class="rscadd">Adds equipment boxes to MA/FT and BC lockers.</li>
+				<li class="rscadd">Adds non lethal magnum back to CoS.</li>
+			</ul>
+
+			<h2 class="date">14 December 2020</h2>
+			<h3 class="author">Lamasmaster updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="maptweak">Added SMC attach office in between EVA and CMO office on bridge deck, extended bridge deck hallway to aquila which now looks like byahkee again</li>
+				<li class="maptweak">Added AI back in with it being on back of bridge deck (armory being vented is a feature)</li>
+				<li class="maptweak">AI upload is now on D2 and on D3 (indeed intentional)</li>
+				<li class="maptweak">New hallway leading to OFD with brand new maintdorms on deck 3</li>
+				<li class="maptweak">Infantry prep is on D5 and auxiliary infarmy was moved south, there is new hallway leading to infantry prep.</li>
+				<li class="maptweak">PADV office is now on D1 (where SMC attache used to be) only office and waiting room</li>
+				<li class="maptweak">Bigger RnD office contains an chemlab now and is bit longer</li>
+				<li class="maptweak">Added relacer to OR1 and cloning into morgue</li>
+				<li class="maptweak">Replaced Tactical armory (the one in Earm because we had two) with Militia armory which contains bare minimum for your mob of validhunters</li>
+				<li class="maptweak">Bridge officer dorms readded and now them with CO and XO spawn in their respective rooms (only roundstart), cameras added to each room on bridge.</li>
+			</ul>
+			<h3 class="author">Moca updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Added new Recon hardsuits to infantry prep.</li>
+				<li class="rscadd">Added two doors, respectively SL and CT</li>
+				<li class="tweak">Fixed the two tiles in space, also in infantry prep</li>
+			</ul>
+			<h3 class="author">Peekaboom updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Mob pixel shifting. Thanks to @Torque4607</li>
+				<li class="rscadd">Long labcoats.</li>
+				<li class="rscadd">Custom Kevlars colors.</li>
+				<li class="rscadd">Custom light plated arm/legguards.</li>
+				<li class="rscadd">Self-protection helmet: Civillian protection hats.</li>
+				<li class="rscadd">Custom loadout selection: Augments for mechanical arms.</li>
+				<li class="rscadd">Custom items selection into loadout preferences.</li>
+				<li class="bugfix">Fix the bug that wouldnt let mobs use ladders.</li>
+				<li class="tweak">Names NTSS Dagon properly.</li>
+				<li class="rscadd">NTSS Dagon welcome message.</li>
+				<li class="imageadd">Custom NTSS Dagon lobby images.</li>
+				<li class="bugfix">Neural Laces are now properly recovered when calling rejuvenate(mob)</li>
+				<li class="rscadd">Adds SMC Attache Closet, Headsets and encryption key</li>
+				<li class="imageadd">Adds Vesta custom plate carriers, armguards and legguards.</li>
+				<li class="rscadd">Adds Security Cadet locker</li>
+				<li class="bugfix">Neural Lace do_backup() after death fixed</li>
+			</ul>
+			<h3 class="author">PurplePineapple updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Added Tajaran Languages/Cultures.</li>
+				<li class="rscadd">Added Shell IPC sprites.</li>
+				<li class="tweak">Fixed Shell IPC equipment to be less of a hackjob</li>
+				<li class="tweak">Vox no longer have to be less than 90 years old. Humans/Aliens of all types must be 18+. IPCs can be any age between 1-100 because robot.</li>
+				<li class="rscadd">Adds hestia's alert level lighting, colours have been toned down a bit to be easier on the eyes.</li>
+				<li class="tweak">A definition and a datums file have been edited because they, in fact, did not appreciate being modularly overwritten.</li>
+				<li class="rscadd">Beanbag shotgun and Z2 Hornet are added to the game along with their ammo boxes.</li>
+				<li class="rscadd">New sprites for every 'Z' type weapon</li>
+				<li class="rscadd">Added infantry recon hardsuits.</li>
+				<li class="rscadd">Added frangible 5mmR magazines as they were missing previously.</li>
+				<li class="rscdel">Blackscreen has been removed when unconscious.</li>
+				<li class="rscadd">Added new files in modular_boh as edits to baystation12's uniforms. UCG/Marines/NTEF now use the correct uniform icons and descriptions</li>
+				<li class="imageadd">Vesta uniforms' .dmi have all been ported</li>
+				<li class="tweak">Job files have been updated with correct uniform usage for all branches. Medical Resident and Scientists have been given extra ranks to reflect the BoH counterparts.</li>
+			</ul>
+
+			<h2 class="date">05 December 2020</h2>
+			<h3 class="author">Peekaboom updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Mithra Module: Mithra Custom species, Genemodders tab, traits, etc</li>
+				<li class="imageadd">Mithra Module: Mithra Custom Sprites(Ears, tails, horns, wings, bodymarkings)</li>
+				<li class="rscadd">BoH module: Infantry, PDAV, SEA Advisor, Biomechanical Engineer</li>
+				<li class="imageadd">BoH module: custom hud icons for Infantry, PDAV, SEA Advisor, Biomechanical Engineer</li>
+				<li class="rscadd">BoH module: Custom Telecomm server/T-Comms setup for Infantry</li>
+				<li class="rscadd">BoH module: Uniforms, guns, armours and ammo</li>
+				<li class="rscadd">Vesta -> BoH module: Rework all Clonning Machinery to a nice state</li>
+				<li class="rscadd">Vesta -> Bay Port: Port and rework Baystation's Resleever, changing it as whole, basically.</li>
+				<li class="rscadd">Vesta -> Bay Port: Port Neural Lace.</li>
+			</ul>
+		</div>
+
+<b>GoonStation 13 Development Team</b>
+	<div class = "top">
+	<b>Coders:</b> Stuntwaffle, Showtime, Pantaloons, Nannek, Keelin, Exadv1, hobnob, Justicefries, 0staf, sniperchance, AngriestIBM, BrianOBlivion<br>
+	<b>Spriters:</b> Supernorn, Haruhi, Stuntwaffle, Pantaloons, Rho, SynthOrange, I Said No<br>
+	</div>
+<br>
+<p class="lic"><a name="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img src="88x31.png" alt="Creative Commons License" /></a><br><i>Except where otherwise noted, Goon Station 13 is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-Noncommercial-Share Alike 3.0 License</a>.<br>Rights are currently extended to <a href="http://forums.somethingawful.com/">SomethingAwful Goons</a> only.</i></p>
+<p class="lic">Some icons by <a href="http://p.yusukekamiyamane.com/">Yusuke Kamiyamane</a>. All rights reserved. Licensed under a <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a>.</p>
+</td></tr></table>
+</body>
+</html>
