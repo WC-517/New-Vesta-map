@@ -716,7 +716,7 @@
 "nN" = (/obj/structure/closet/secure_closet/decktech,/obj/item/weapon/material/coin/silver{pixel_x = -3; pixel_y = 3},/turf/simulated/floor/tiled,/area/casino)
 "nO" = (/obj/machinery/papershredder,/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/tiled,/area/casino)
 "nP" = (/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"},/turf/space,/area/casino)
-"nQ" = (/obj/machinery/atmospherics/portables_connector{dir = 4},/turf/simulated/floor/tiled/techfloor/grid,/area/casino)
+"nQ" = (/obj/machinery/atmospherics/portables_connector{dir = 4},/obj/machinery/portable_atmospherics/canister/air/airlock,/turf/simulated/floor/tiled/techfloor/grid,/area/casino)
 "nR" = (/obj/structure/table/rack{dir = 4},/obj/item/weapon/storage/toolbox/mechanical,/obj/item/weapon/storage/toolbox/mechanical,/obj/item/weapon/storage/toolbox/electrical,/obj/item/weapon/storage/toolbox/electrical,/obj/item/weapon/storage/toolbox/emergency,/obj/item/weapon/storage/toolbox/emergency,/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor/grid,/area/casino)
 "nS" = (/obj/structure/table/rack{dir = 4},/obj/item/stack/material/steel{amount = 30},/obj/item/stack/material/steel{amount = 30},/obj/item/stack/material/steel{amount = 30},/obj/item/stack/material/plasteel{amount = 20},/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor/grid,/area/casino)
 "nT" = (/obj/structure/closet/crate/freezer/rations,/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor/grid,/area/casino)
