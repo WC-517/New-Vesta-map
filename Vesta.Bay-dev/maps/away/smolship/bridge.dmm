@@ -225,7 +225,7 @@
 "eq" = (/obj/structure/bed/chair/comfy/blue{dir = 8; icon_state = "comfychair_preview"},/turf/simulated/floor/wood/walnut,/area/casino)
 "er" = (/obj/structure/window/reinforced{dir = 8; health = 1e+006},/obj/structure/bed/chair/office/comfy/black,/turf/simulated/floor/tiled/dark,/area/casino)
 "es" = (/obj/effect/wallframe_spawn/reinforced/hull,/obj/machinery/door/blast/regular{dir = 2; icon_state = "pdoor0"; id_tag = "smol-cso"; name = "Blast Door"},/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/plating,/area/casino)
-"et" = (/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/plating,/area/casino)
+"et" = (/obj/effect/floor_decal/corner/research/three_quarters{dir = 1},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/table/standard{name = "plastic table frame"},/obj/item/weapon/book/manual/nt_regs,/turf/simulated/floor/tiled/monotile,/area/casino)
 "eu" = (/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/casino)
 "ev" = (/obj/structure/window/reinforced{health = 1e+007},/obj/structure/window/reinforced{dir = 8; health = 1e+006},/obj/machinery/computer/modular/preset/cardslot/command{dir = 1; icon_state = "console"},/turf/simulated/floor/tiled/dark,/area/casino)
 "ew" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/disposalpipe/segment,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/wood/walnut,/area/casino)
@@ -322,14 +322,14 @@
 "gj" = (/obj/structure/closet/secure_closet/engineering_chief_torch,/obj/effect/floor_decal/industrial/outline/yellow,/turf/space,/area/casino)
 "gk" = (/obj/structure/bed/chair/office/comfy/blue{dir = 8; icon_state = "comfyofficechair_preview"},/obj/item/weapon/storage/secure/safe{pixel_x = 5; pixel_y = 24},/turf/simulated/floor/wood/walnut,/area/casino)
 "gl" = (/obj/effect/floor_decal/corner/yellow{dir = 1},/turf/simulated/floor/tiled,/area/casino)
-"gm" = (/obj/structure/bed/chair/padded/yellow,/obj/effect/floor_decal/corner/yellow{dir = 4},/turf/simulated/floor/tiled,/area/casino)
+"gm" = (/obj/structure/bed/chair/office/comfy,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/button/windowtint{id = "CSO-win"; pixel_x = -36; pixel_y = -24},/turf/simulated/floor/tiled,/area/casino)
 "gn" = (/obj/structure/closet/secure_closet/RD_torch,/obj/effect/floor_decal/corner/research/three_quarters{dir = 8},/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/monotile,/area/casino)
-"go" = (/obj/effect/floor_decal/corner/research/three_quarters{dir = 1},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/monotile,/area/casino)
+"go" = (/obj/structure/bed/chair/office/comfy,/obj/machinery/button/windowtint{id = "CL-win"; pixel_x = 36; pixel_y = -24},/turf/simulated/floor/carpet,/area/casino)
 "gp" = (/obj/effect/wallframe_spawn/reinforced/hull,/obj/machinery/door/blast/regular{dir = 2; icon_state = "pdoor0"; id_tag = "smol-cso"; name = "Blast Door"},/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/plating,/area/casino)
 "gq" = (/turf/simulated/floor/tiled/freezer,/area/casino)
 "gr" = (/obj/machinery/photocopier,/obj/effect/floor_decal/corner/research/three_quarters{dir = 1},/turf/simulated/floor/tiled/monotile,/area/casino)
-"gs" = (/obj/structure/table/rack,/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced{dir = 1},/obj/item/weapon/rcd,/obj/item/weapon/rcd_ammo,/obj/item/weapon/rcd_ammo,/obj/item/weapon/rcd_ammo,/obj/item/weapon/rcd_ammo,/obj/item/weapon/rcd_ammo,/obj/item/weapon/rcd_ammo,/obj/machinery/door/window/brigdoor/eastleft{name = "CE's Equipment Storage"},/obj/structure/window/reinforced{dir = 2; health = 1e+007},/obj/item/weapon/aiModule/solgov,/obj/item/weapon/aiModule/reset,/obj/item/weapon/aiModule/purge,/obj/effect/floor_decal/corner/yellow/three_quarters,/turf/simulated/floor/tiled,/area/casino)
-"gt" = (/obj/effect/floor_decal/corner/yellow{dir = 8},/turf/simulated/floor/tiled,/area/casino)
+"gs" = (/obj/structure/bed/chair/office/comfy,/obj/machinery/button/windowtint{id = "XO-win"; pixel_x = 36; pixel_y = -24},/turf/simulated/floor/carpet,/area/casino)
+"gt" = (/obj/effect/floor_decal/corner/yellow/three_quarters{dir = 1},/obj/structure/coatrack,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/monotile,/area/casino)
 "gu" = (/obj/machinery/computer/modular/preset/cardslot/command{dir = 4; icon_state = "console"},/obj/item/modular_computer/tablet/lease/preset/command,/turf/simulated/floor/tiled,/area/casino)
 "gv" = (/obj/effect/wallframe_spawn/reinforced/hull,/obj/machinery/door/blast/regular{dir = 4; icon_state = "pdoor0"; id_tag = "smol-cso"; name = "Blast Door"},/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/plating,/area/casino)
 "gw" = (/obj/effect/floor_decal/corner/yellow,/turf/simulated/floor/tiled,/area/casino)
@@ -346,19 +346,19 @@
 "gH" = (/obj/structure/table/woodentable_reinforced/walnut,/obj/item/weapon/paper_bin{pixel_x = -3; pixel_y = 7},/obj/item/weapon/pen,/obj/item/weapon/stamp/denied,/turf/simulated/floor/carpet,/area/casino)
 "gI" = (/obj/structure/closet/secure_closet/guncabinet/sidearm/combined{req_access = list(list("ACCESS_BRIDGE","ACCESS_ARMORY","ACCESS_TORCH_ARMORY","ACCESS_HEAD_OF_SECURITY","ACCESS_HEAD_OF_PERSONNEL","ACCESS_CHIEF_ENGINEER","ACCESS_CHIEF_MEDICAL_OFFICER","ACCESS_RESEARCH_DIRECTOR","ACCESS_TORCH_SENIOR_ADVISOR"))},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
 "gJ" = (/obj/structure/closet/secure_closet/guncabinet/PPE{req_access = list(list("ACCESS_BRIDGE","ACCESS_ARMORY","ACCESS_TORCH_ARMORY","ACCESS_HEAD_OF_SECURITY","ACCESS_HEAD_OF_PERSONNEL","ACCESS_CHIEF_ENGINEER","ACCESS_CHIEF_MEDICAL_OFFICER","ACCESS_RESEARCH_DIRECTOR","ACCESS_TORCH_SENIOR_ADVISOR"))},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
-"gK" = (/obj/structure/bed/chair/padded/teal,/obj/effect/floor_decal/corner/paleblue{dir = 1; icon_state = "corner_white"},/turf/simulated/floor/tiled/white,/area/casino)
+"gK" = (/obj/effect/floor_decal/corner/paleblue/three_quarters{dir = 8; icon_state = "corner_white_three_quarters"},/obj/structure/coatrack,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/white/monotile,/area/casino)
 "gL" = (/obj/effect/floor_decal/corner/paleblue{dir = 4},/turf/simulated/floor/tiled/white,/area/casino)
-"gM" = (/obj/structure/cable/green{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/plating,/area/casino)
-"gN" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/item/weapon/stamp/ce,/turf/simulated/floor/tiled,/area/casino)
+"gM" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/machinery/button/blast_door{id_tag = "smol-cso"; name = "Office Blast Doors"; pixel_x = 6; pixel_y = 6},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled,/area/casino)
+"gN" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 9},/obj/structure/coatrack,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/carpet/blue,/area/casino)
 "gO" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/effect/floor_decal/corner/yellow{dir = 4},/obj/item/weapon/paper_bin{pixel_x = -3; pixel_y = 7},/obj/item/weapon/pen,/obj/item/sticky_pad/random,/turf/simulated/floor/tiled,/area/casino)
 "gP" = (/obj/effect/floor_decal/corner/blue{dir = 10},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
 "gQ" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/effect/floor_decal/corner/paleblue{dir = 1; icon_state = "corner_white"},/obj/item/weapon/paper_bin{pixel_x = -3; pixel_y = 7},/obj/item/sticky_pad/random,/obj/item/weapon/pen,/turf/simulated/floor/tiled/white,/area/casino)
-"gR" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/item/weapon/stamp/cmo,/turf/simulated/floor/tiled/white,/area/casino)
+"gR" = (/obj/structure/bed/chair/padded/yellow,/obj/effect/floor_decal/corner/yellow{dir = 4},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/casino)
 "gS" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 5},/turf/simulated/floor/carpet,/area/casino)
 "gT" = (/obj/machinery/computer/ship/sensors,/obj/effect/floor_decal/corner/blue/three_quarters{dir = 8},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
-"gU" = (/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/plating,/area/casino)
+"gU" = (/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "CSO-win"},/turf/simulated/floor/plating,/area/casino)
 "gV" = (/obj/effect/floor_decal/corner/research/three_quarters{dir = 8},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/monotile,/area/casino)
-"gW" = (/obj/structure/table/woodentable_reinforced/ebony/walnut,/obj/item/weapon/stamp/co,/turf/simulated/floor/carpet/blue,/area/casino)
+"gW" = (/obj/structure/bed/chair/padded/teal,/obj/effect/floor_decal/corner/paleblue{dir = 1; icon_state = "corner_white"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/white,/area/casino)
 "gX" = (/obj/effect/floor_decal/corner/research{dir = 1; icon_state = "corner_white"},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled,/area/casino)
 "gY" = (/obj/effect/floor_decal/corner/research{dir = 4},/turf/simulated/floor/tiled,/area/casino)
 "gZ" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 8},/turf/simulated/floor/carpet/blue,/area/casino)
@@ -368,9 +368,9 @@
 "hd" = (/obj/effect/floor_decal/corner/blue,/obj/machinery/keycard_auth/torch{pixel_x = 0; pixel_y = 38},/obj/machinery/recharger/wallcharger{pixel_x = -8; pixel_y = 20},/obj/machinery/recharger/wallcharger{pixel_x = 6; pixel_y = 20},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
 "he" = (/obj/machinery/computer/modular/preset/cardslot/command{dir = 8; icon_state = "console"},/obj/item/modular_computer/tablet/lease/preset/command,/turf/simulated/floor/tiled/white,/area/casino)
 "hf" = (/obj/effect/floor_decal/corner/paleblue,/turf/simulated/floor/tiled/white,/area/casino)
-"hg" = (/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/plating,/area/casino)
-"hh" = (/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/plating,/area/casino)
-"hi" = (/obj/structure/bed/chair/office/comfy,/turf/simulated/floor/tiled,/area/casino)
+"hg" = (/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "CL-win"},/turf/simulated/floor/plating,/area/casino)
+"hh" = (/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "XO-win"},/turf/simulated/floor/plating,/area/casino)
+"hi" = (/obj/effect/floor_decal/spline/fancy/wood/corner{dir = 4},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/carpet/blue,/area/casino)
 "hj" = (/obj/machinery/ai_status_display,/turf/simulated/wall/r_wall/hull,/area/casino)
 "hk" = (/obj/machinery/power/terminal,/obj/machinery/pointdefense{id_tag = null; initial_id_tag = "dagon_ai_pd"},/obj/structure/cable/cyan{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/airless,/area/casino)
 "hl" = (/obj/structure/cable/cyan{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/wall/r_wall/hull,/area/casino)
@@ -706,20 +706,20 @@
 "nD" = (/obj/item/weapon/stamp/xo,/obj/structure/table/woodentable_reinforced/walnut,/turf/simulated/floor/carpet,/area/casino)
 "nE" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 5},/turf/simulated/floor/carpet/blue,/area/casino)
 "nF" = (/obj/structure/displaycase,/obj/item/weapon/gun/energy/captain,/obj/effect/floor_decal/spline/fancy/wood{dir = 9},/turf/simulated/floor/carpet/blue,/area/casino)
-"nG" = (/obj/effect/floor_decal/spline/fancy/wood/corner{dir = 4},/turf/simulated/floor/carpet/blue,/area/casino)
+"nG" = (/obj/effect/wallframe_spawn/reinforced/hull,/obj/machinery/door/blast/regular{dir = 4; icon_state = "pdoor0"; id_tag = "smol-ce"; name = "Blast Door"},/obj/structure/cable/green{d2 = 4; icon_state = "0-4"},/obj/structure/cable/green{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/plating,/area/casino)
 "nH" = (/obj/effect/floor_decal/spline/fancy/wood/corner{dir = 1},/turf/simulated/floor/carpet/blue,/area/casino)
 "nI" = (/obj/structure/table/woodentable_reinforced/ebony/walnut,/obj/machinery/photocopier/faxmachine/torch{department = "Torch - Commanding Officer"},/obj/effect/floor_decal/spline/fancy/wood{dir = 9},/turf/simulated/floor/carpet/blue,/area/casino)
 "nJ" = (/obj/structure/table/woodentable_reinforced/ebony/walnut,/obj/item/weapon/tableflag,/obj/effect/floor_decal/spline/fancy/wood/corner{dir = 4},/turf/simulated/floor/carpet/blue,/area/casino)
-"nK" = (/obj/structure/bed/chair/office/comfy,/turf/simulated/floor/tiled/white,/area/casino)
+"nK" = (/obj/machinery/papershredder,/obj/effect/floor_decal/corner/yellow/three_quarters{dir = 8},/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled/monotile,/area/casino)
 "nL" = (/obj/machinery/photocopier,/obj/effect/floor_decal/spline/fancy/wood{dir = 10; icon_state = "spline_fancy"},/turf/simulated/floor/carpet/blue,/area/casino)
 "nM" = (/obj/effect/floor_decal/spline/fancy/wood/corner{dir = 8},/turf/simulated/floor/carpet/blue,/area/casino)
-"nN" = (/obj/structure/bed/chair/office/comfy,/turf/simulated/floor/carpet/blue,/area/casino)
+"nN" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/item/weapon/stamp/ce,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/casino)
 "nO" = (/obj/effect/floor_decal/spline/fancy/wood/corner,/turf/simulated/floor/carpet/blue,/area/casino)
 "nP" = (/obj/machinery/papershredder,/obj/effect/floor_decal/spline/fancy/wood{dir = 6},/turf/simulated/floor/carpet/blue,/area/casino)
-"nQ" = (/obj/machinery/disposal,/obj/effect/floor_decal/spline/fancy/wood{dir = 10; icon_state = "spline_fancy"},/turf/simulated/floor/carpet/blue,/area/casino)
-"nR" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 6},/turf/simulated/floor/carpet/blue,/area/casino)
-"nS" = (/obj/structure/bed/chair/comfy/blue{dir = 4; icon_state = "comfychair_preview"},/obj/effect/floor_decal/spline/fancy/wood{dir = 10; icon_state = "spline_fancy"},/turf/simulated/floor/carpet/blue,/area/casino)
-"nT" = (/obj/structure/table/woodentable_reinforced/walnut/maple,/obj/item/weapon/folder/envelope/captain,/obj/item/weapon/material/ashtray/bronze,/obj/effect/floor_decal/spline/fancy/wood{dir = 6},/turf/simulated/floor/carpet/blue,/area/casino)
+"nQ" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/item/weapon/stamp/cmo,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/white,/area/casino)
+"nR" = (/obj/structure/table/woodentable_reinforced/ebony/walnut,/obj/item/weapon/stamp/co,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/carpet/blue,/area/casino)
+"nS" = (/obj/effect/wallframe_spawn/reinforced/hull,/obj/machinery/door/blast/regular{dir = 4; icon_state = "pdoor0"; id_tag = "smol-ce"; name = "Blast Door"},/obj/structure/cable/green{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/plating,/area/casino)
+"nT" = (/obj/structure/table/rack,/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced{dir = 1},/obj/item/weapon/rcd,/obj/item/weapon/rcd_ammo,/obj/item/weapon/rcd_ammo,/obj/item/weapon/rcd_ammo,/obj/item/weapon/rcd_ammo,/obj/item/weapon/rcd_ammo,/obj/item/weapon/rcd_ammo,/obj/machinery/door/window/brigdoor/eastleft{name = "CE's Equipment Storage"},/obj/structure/window/reinforced{dir = 2; health = 1e+007},/obj/item/weapon/aiModule/solgov,/obj/item/weapon/aiModule/reset,/obj/item/weapon/aiModule/purge,/obj/effect/floor_decal/corner/yellow/three_quarters,/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/casino)
 "nU" = (/obj/machinery/disposal,/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/carpet,/area/casino)
 "nV" = (/obj/effect/floor_decal/spline/fancy/wood/corner{dir = 4},/turf/simulated/floor/carpet,/area/casino)
 "nW" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/carpet,/area/casino)
@@ -763,7 +763,7 @@
 "oI" = (/obj/effect/floor_decal/corner/blue{dir = 10},/obj/effect/floor_decal/corner/blue{dir = 5},/turf/simulated/floor/tiled/dark,/area/casino)
 "oJ" = (/obj/structure/window/reinforced/polarized{dir = 4},/obj/structure/curtain/open/privacy,/turf/simulated/floor/tiled/dark/monotile,/area/casino)
 "oK" = (/obj/effect/floor_decal/corner/blue{dir = 5},/turf/simulated/floor/tiled/dark,/area/casino)
-"oL" = (/obj/structure/bed/chair/office/comfy,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/casino)
+"oL" = (/obj/structure/cable/green{d2 = 4; icon_state = "0-4"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "CSO-win"},/turf/simulated/floor/plating,/area/casino)
 "oM" = (/obj/structure/curtain/open/privacy,/turf/simulated/floor/tiled/dark/monotile,/area/casino)
 "oN" = (/obj/structure/bed/chair/comfy/blue{dir = 8; icon_state = "comfychair_preview"},/obj/effect/floor_decal/corner/blue{dir = 1},/turf/simulated/floor/tiled/dark,/area/casino)
 "oO" = (/obj/effect/floor_decal/corner/blue{dir = 10},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
@@ -786,9 +786,9 @@
 "pf" = (/obj/effect/floor_decal/corner/blue{dir = 10},/obj/effect/floor_decal/corner/blue{dir = 4},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
 "pg" = (/obj/machinery/computer/modular/preset/dock{dir = 4},/obj/structure/window/reinforced{dir = 8; health = 1e+006},/turf/simulated/floor/tiled/dark,/area/casino)
 "ph" = (/obj/effect/floor_decal/corner/yellow/three_quarters{dir = 8},/turf/simulated/floor/tiled/monotile,/area/casino)
-"pi" = (/obj/effect/floor_decal/corner/yellow/three_quarters{dir = 1},/obj/structure/coatrack,/turf/simulated/floor/tiled/monotile,/area/casino)
+"pi" = (/obj/effect/floor_decal/corner/yellow{dir = 8},/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled,/area/casino)
 "pj" = (/obj/structure/bed/chair/comfy/blue{dir = 8; icon_state = "comfychair_preview"},/obj/effect/floor_decal/corner/blue{dir = 8; icon_state = "corner_white"},/turf/simulated/floor/tiled/dark,/area/casino)
-"pk" = (/obj/effect/floor_decal/corner/paleblue/three_quarters{dir = 8; icon_state = "corner_white_three_quarters"},/obj/structure/coatrack,/turf/simulated/floor/tiled/white/monotile,/area/casino)
+"pk" = (/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "CSO-win"},/turf/simulated/floor/plating,/area/casino)
 "pl" = (/obj/effect/floor_decal/corner/blue{dir = 6},/obj/effect/floor_decal/corner/blue{dir = 9},/turf/simulated/floor/tiled/dark,/area/casino)
 "pm" = (/obj/effect/floor_decal/corner/paleblue/three_quarters{dir = 1},/turf/simulated/floor/tiled/white/monotile,/area/casino)
 "pn" = (/obj/machinery/computer/modular/preset/cardslot/command{dir = 4; icon_state = "console"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
@@ -798,11 +798,11 @@
 "pr" = (/obj/structure/table/rack,/obj/item/weapon/storage/box/PDAs{pixel_x = 4; pixel_y = 4},/obj/item/weapon/storage/box/ids,/obj/item/weapon/storage/box/lights/mixed,/obj/random/coin,/obj/random/firstaid,/obj/effect/floor_decal/industrial/outline/grey,/obj/structure/sign/warning/nosmoking_1{dir = 1; pixel_x = 0; pixel_y = -32},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
 "ps" = (/obj/structure/flora/pottedplant/overgrown,/obj/effect/floor_decal/corner/paleblue/three_quarters{dir = 8; icon_state = "corner_white_three_quarters"},/turf/simulated/floor/tiled/white/monotile,/area/casino)
 "pt" = (/obj/machinery/computer/modular/preset/engineering{dir = 1},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
-"pu" = (/obj/effect/wallframe_spawn/reinforced/hull,/obj/machinery/door/blast/regular{dir = 4; icon_state = "pdoor0"; id_tag = "smol-ce"; name = "Blast Door"},/turf/simulated/floor/plating,/area/casino)
+"pu" = (/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "CL-win"},/turf/simulated/floor/plating,/area/casino)
 "pv" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/machinery/button/blast_door{id_tag = "smol-ce"; name = "Office Blast Doors"; pixel_x = 6; pixel_y = -6},/turf/simulated/floor/tiled,/area/casino)
-"pw" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/item/weapon/storage/medical_lolli_jar,/obj/machinery/button/blast_door{id_tag = "smol-ce"; name = "Office Blast Doors"; pixel_x = -6; pixel_y = -6},/turf/simulated/floor/tiled/white,/area/casino)
+"pw" = (/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "CL-win"},/turf/simulated/floor/plating,/area/casino)
 "px" = (/obj/structure/table/woodentable_reinforced/ebony/walnut,/obj/item/weapon/paper_bin{pixel_x = -3; pixel_y = 7},/obj/item/weapon/pen,/obj/item/weapon/reagent_containers/food/drinks/glass2/coffeecup/SCG{pixel_x = 3; pixel_y = 0},/obj/machinery/button/blast_door{id_tag = "smol-ce"; name = "Office Blast Doors"; pixel_x = -6; pixel_y = -6},/turf/simulated/floor/carpet/blue,/area/casino)
-"py" = (/obj/effect/wallframe_spawn/reinforced/hull,/obj/machinery/door/blast/regular{dir = 2; icon_state = "pdoor0"; id_tag = "smol-ce"; name = "Blast Door"},/turf/simulated/floor/plating,/area/casino)
+"py" = (/obj/effect/floor_decal/corner/yellow/three_quarters,/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/monotile,/area/casino)
 "pz" = (/obj/effect/landmark/start{name = "Bridge Officer"},/obj/structure/bed,/obj/item/weapon/bedsheet/blue,/turf/simulated/floor/carpet/blue,/area/casino)
 "pA" = (/obj/machinery/light/small{dir = 1},/turf/simulated/floor/carpet/blue,/area/casino)
 "pB" = (/obj/machinery/door/firedoor,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/door/airlock/vault/bolted{autoset_access = 0; id_tag = "bridgestorage_exit"; name = "Emergency Exit"; req_access = list("ACCESS_BRIDGE")},/obj/item/weapon/airlock_brace{req_access = list("ACCESS_BRIDGE")},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
@@ -949,7 +949,7 @@
 "sm" = (/obj/machinery/door/airlock/sol{id_tag = "captaindoorfore"; name = "Commanding Officer"; secured_wires = 1},/obj/machinery/door/firedoor,/turf/simulated/floor/tiled/dark/monotile,/area/casino)
 "sn" = (/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/disposalpipe/segment,/obj/machinery/light{dir = 8; icon_state = "tube1"},/obj/structure/bed/chair/padded/blue{dir = 4; icon_state = "chair_preview"},/obj/effect/floor_decal/corner/blue{dir = 9},/turf/simulated/floor/tiled/dark,/area/casino)
 "so" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/disposalpipe/segment{dir = 4; icon_state = "pipe-c"},/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/tiled/dark,/area/casino)
-"sp" = (/obj/machinery/papershredder,/obj/effect/floor_decal/corner/yellow/three_quarters{dir = 8},/turf/simulated/floor/tiled/monotile,/area/casino)
+"sp" = (/obj/effect/floor_decal/corner/yellow{dir = 8},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/casino)
 "sq" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/machinery/photocopier/faxmachine/torch{department = "Torch - Chief Engineer"},/obj/effect/floor_decal/corner/yellow/three_quarters{dir = 1},/turf/simulated/floor/tiled/monotile,/area/casino)
 "sr" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/machinery/photocopier/faxmachine/torch{department = "Torch - Chief Medical Officer"},/obj/effect/floor_decal/corner/paleblue/three_quarters{dir = 8; icon_state = "corner_white_three_quarters"},/turf/simulated/floor/tiled/white/monotile,/area/casino)
 "ss" = (/obj/machinery/papershredder,/obj/effect/floor_decal/corner/paleblue/three_quarters{dir = 1},/turf/simulated/floor/tiled/white/monotile,/area/casino)
@@ -965,7 +965,7 @@
 "sC" = (/obj/machinery/computer/ship/helm{dir = 1; req_access = list(list("ACCESS_TORCH_AQUILA_HELM"))},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
 "sD" = (/obj/machinery/computer/ship/engines{dir = 1},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
 "sE" = (/obj/effect/wallframe_spawn/reinforced/hull,/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/obj/machinery/door/blast/regular{dir = 2; icon_state = "pdoor0"; id_tag = "smol-bridge"; name = "Blast Door"},/turf/simulated/floor/plating,/area/casino)
-"sF" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 9},/obj/structure/coatrack,/turf/simulated/floor/carpet/blue,/area/casino)
+"sF" = (/obj/effect/floor_decal/corner/yellow,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled,/area/casino)
 "sG" = (/obj/structure/bed/chair/comfy/captain{color = "#666666"; dir = 1; icon_state = "capchair_preview"},/obj/item/weapon/storage/secure/safe{pixel_x = 5; pixel_y = -24},/turf/simulated/floor/wood/walnut,/area/casino)
 "sH" = (/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"},/turf/space,/area/casino)
 "sI" = (/obj/structure/railing/mapped{dir = 1; icon_state = "railing0-1"},/turf/simulated/floor/tiled/dark,/area/casino)
@@ -982,14 +982,14 @@
 "sT" = (/obj/structure/catwalk,/obj/structure/ladder,/turf/space,/area/casino)
 "sU" = (/obj/machinery/power/smes/buildable{charge = 5e+006; input_attempt = 1; input_level = 125000; output_attempt = 1; output_level = 100000},/turf/simulated/floor/tiled/dark,/area/casino)
 "sV" = (/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"},/turf/simulated/open,/area/casino)
-"sW" = (/obj/effect/floor_decal/corner/yellow/three_quarters,/turf/simulated/floor/tiled/monotile,/area/casino)
-"sX" = (/obj/machinery/disposal,/obj/effect/floor_decal/corner/yellow/three_quarters{dir = 4},/turf/simulated/floor/tiled/monotile,/area/casino)
-"sY" = (/obj/machinery/disposal,/obj/effect/floor_decal/corner/paleblue/three_quarters,/turf/simulated/floor/tiled/white/monotile,/area/casino)
-"sZ" = (/obj/effect/floor_decal/corner/paleblue/three_quarters{dir = 4},/turf/simulated/floor/tiled/white/monotile,/area/casino)
-"ta" = (/obj/structure/closet/secure_closet/engineering_chief_torch,/obj/effect/floor_decal/corner/yellow/three_quarters,/turf/simulated/floor/tiled/monotile,/area/casino)
-"tb" = (/obj/effect/floor_decal/corner/yellow/three_quarters{dir = 4},/turf/simulated/floor/tiled/monotile,/area/casino)
-"tc" = (/obj/effect/floor_decal/corner/paleblue/three_quarters,/turf/simulated/floor/tiled/white/monotile,/area/casino)
-"td" = (/obj/structure/closet/secure_closet/CMO_torch,/obj/item/weapon/storage/belt/medical,/obj/item/weapon/book/manual/sol_sop,/obj/effect/floor_decal/corner/paleblue/three_quarters{dir = 4},/turf/simulated/floor/tiled/white/monotile,/area/casino)
+"sW" = (/obj/machinery/disposal,/obj/effect/floor_decal/corner/yellow/three_quarters{dir = 4},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/monotile,/area/casino)
+"sX" = (/obj/effect/wallframe_spawn/reinforced/hull,/obj/machinery/door/blast/regular{dir = 4; icon_state = "pdoor0"; id_tag = "smol-ce"; name = "Blast Door"},/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/plating,/area/casino)
+"sY" = (/obj/machinery/disposal,/obj/effect/floor_decal/corner/paleblue/three_quarters,/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/white/monotile,/area/casino)
+"sZ" = (/obj/effect/floor_decal/corner/paleblue{dir = 8},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/white,/area/casino)
+"ta" = (/obj/effect/floor_decal/corner/paleblue,/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/white,/area/casino)
+"tb" = (/obj/effect/floor_decal/corner/paleblue/three_quarters{dir = 4},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/white/monotile,/area/casino)
+"tc" = (/obj/machinery/disposal,/obj/effect/floor_decal/spline/fancy/wood{dir = 10; icon_state = "spline_fancy"},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/carpet/blue,/area/casino)
+"td" = (/obj/effect/floor_decal/spline/fancy/wood/corner{dir = 8},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/carpet/blue,/area/casino)
 "te" = (/obj/effect/floor_decal/corner/blue/three_quarters{dir = 1},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dark,/area/casino)
 "tf" = (/obj/machinery/door/airlock/glass/command,/obj/machinery/door/blast/regular{dir = 2; id_tag = "smol-ai-chamber-ac"; name = "Internal Chamber Lockdown"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
 "tg" = (/obj/machinery/computer/ship/helm{dir = 4; icon_state = "computer"},/obj/effect/floor_decal/corner/blue{dir = 9},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
@@ -1021,12 +1021,12 @@
 "tG" = (/obj/effect/floor_decal/corner/blue{dir = 5},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
 "tH" = (/obj/effect/wallframe_spawn/reinforced/hull,/obj/structure/cable/green{d2 = 4; icon_state = "0-4"},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/machinery/door/blast/regular{dir = 4; icon_state = "pdoor0"; id_tag = "smol-bridge"; name = "Blast Door"},/turf/simulated/floor/plating,/area/casino)
 "tI" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/effect/floor_decal/spline/fancy/black{dir = 4},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
-"tJ" = (/obj/structure/cable/green,/turf/simulated/floor/plating,/area/casino)
-"tK" = (/obj/structure/cable/green,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/plating,/area/casino)
-"tL" = (/obj/structure/cable/green,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/plating,/area/casino)
+"tJ" = (/obj/structure/cable/green{d2 = 4; icon_state = "0-4"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "CL-win"},/turf/simulated/floor/plating,/area/casino)
+"tK" = (/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "CL-win"},/turf/simulated/floor/plating,/area/casino)
+"tL" = (/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "XO-win"},/turf/simulated/floor/plating,/area/casino)
 "tM" = (/obj/machinery/power/terminal{dir = 4},/turf/simulated/floor/bluegrid,/area/casino)
 "tN" = (/obj/effect/floor_decal/corner/research/three_quarters,/obj/vehicle/bike/gyroscooter,/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/monotile,/area/casino)
-"tO" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/item/weapon/book/manual/nt_regs,/obj/machinery/button/blast_door{id_tag = "smol-cso"; name = "Office Blast Doors"; pixel_x = 6; pixel_y = 6},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled,/area/casino)
+"tO" = (/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "XO-win"},/turf/simulated/floor/plating,/area/casino)
 "tP" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/item/weapon/stamp/rd,/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled,/area/casino)
 "tQ" = (/obj/structure/table/woodentable_reinforced/walnut,/obj/item/device/flashlight/lamp,/obj/machinery/button/blast_door{id_tag = "smol-cso"; name = "Office Blast Doors"; pixel_x = -6; pixel_y = 6},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/carpet,/area/casino)
 "tR" = (/obj/machinery/button/blast_door{id_tag = "smol-cso"; name = "Office Blast Doors"; pixel_x = -6; pixel_y = 6},/obj/structure/table/woodentable_reinforced/walnut,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/carpet,/area/casino)
@@ -1038,7 +1038,7 @@
 "tX" = (/obj/effect/floor_decal/corner/research/three_quarters,/obj/structure/coatrack,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/monotile,/area/casino)
 "tY" = (/obj/structure/flora/pottedplant/large,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/carpet,/area/casino)
 "tZ" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 10; icon_state = "spline_fancy"},/obj/structure/coatrack,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/carpet,/area/casino)
-"ua" = (/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/casino)
+"ua" = (/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "CSO-win"},/turf/simulated/floor/plating,/area/casino)
 "ub" = (/obj/machinery/porta_turret{dir = 8},/obj/effect/floor_decal/industrial/outline/grey,/turf/simulated/floor/tiled/monotile,/area/casino)
 "uc" = (/obj/effect/floor_decal/corner/blue{dir = 10},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/dark,/area/casino)
 "ud" = (/obj/effect/floor_decal/corner/blue{dir = 10},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
@@ -1068,7 +1068,7 @@
 "uB" = (/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
 "uC" = (/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
 "uD" = (/obj/effect/wallframe_spawn/reinforced/hull,/obj/structure/cable/green,/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/machinery/door/blast/regular{dir = 2; icon_state = "pdoor0"; id_tag = "smol-bridge"; name = "Blast Door"},/turf/simulated/floor/plating,/area/casino)
-"uE" = (/obj/structure/cable/green,/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/plating,/area/casino)
+"uE" = (/obj/effect/floor_decal/spline/fancy/wood/corner,/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/carpet/blue,/area/casino)
 "uF" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
 "uG" = (/obj/machinery/power/terminal,/obj/structure/cable,/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/plating,/area/casino)
 "uH" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 5},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/carpet/blue,/area/casino)
@@ -1078,6 +1078,36 @@
 "uL" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
 "uM" = (/obj/effect/wallframe_spawn/reinforced,/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/plating,/area/casino)
 "uN" = (/obj/effect/wallframe_spawn/reinforced,/obj/structure/cable/green,/turf/simulated/floor/plating,/area/casino)
+"uO" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 6},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/carpet/blue,/area/casino)
+"uP" = (/obj/effect/wallframe_spawn/reinforced/hull,/obj/machinery/door/blast/regular{dir = 2; icon_state = "pdoor0"; id_tag = "smol-ce"; name = "Blast Door"},/obj/structure/cable/green{d2 = 4; icon_state = "0-4"},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating,/area/casino)
+"uQ" = (/obj/structure/closet/secure_closet/engineering_chief_torch,/obj/effect/floor_decal/corner/yellow/three_quarters,/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/monotile,/area/casino)
+"uR" = (/obj/effect/floor_decal/corner/yellow/three_quarters{dir = 4},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/curtain/black,/turf/simulated/floor/tiled/monotile,/area/casino)
+"uS" = (/obj/effect/wallframe_spawn/reinforced/hull,/obj/machinery/door/blast/regular{dir = 2; icon_state = "pdoor0"; id_tag = "smol-ce"; name = "Blast Door"},/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating,/area/casino)
+"uT" = (/obj/effect/floor_decal/corner/paleblue/three_quarters,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/curtain/black,/turf/simulated/floor/tiled/white/monotile,/area/casino)
+"uU" = (/obj/structure/closet/secure_closet/CMO_torch,/obj/item/weapon/storage/belt/medical,/obj/item/weapon/book/manual/sol_sop,/obj/effect/floor_decal/corner/paleblue/three_quarters{dir = 4},/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled/white/monotile,/area/casino)
+"uV" = (/obj/structure/bed/chair/comfy/blue{dir = 4; icon_state = "comfychair_preview"},/obj/effect/floor_decal/spline/fancy/wood{dir = 10; icon_state = "spline_fancy"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/carpet/blue,/area/casino)
+"uW" = (/obj/structure/table/woodentable_reinforced/walnut/maple,/obj/item/weapon/folder/envelope/captain,/obj/item/weapon/material/ashtray/bronze,/obj/effect/floor_decal/spline/fancy/wood{dir = 6},/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/carpet/blue,/area/casino)
+"uX" = (/obj/effect/wallframe_spawn/reinforced/hull,/obj/machinery/door/blast/regular{dir = 2; icon_state = "pdoor0"; id_tag = "smol-ce"; name = "Blast Door"},/obj/structure/cable/green,/turf/simulated/floor/plating,/area/casino)
+"uY" = (/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "CL-win"},/turf/simulated/floor/plating,/area/casino)
+"uZ" = (/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "XO-win"},/turf/simulated/floor/plating,/area/casino)
+"va" = (/obj/structure/cable/green,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "CE-win"},/turf/simulated/floor/plating,/area/casino)
+"vb" = (/obj/structure/cable/green,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "CMO-win"},/turf/simulated/floor/plating,/area/casino)
+"vc" = (/obj/structure/cable/green,/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "CO-win"},/turf/simulated/floor/plating,/area/casino)
+"vd" = (/obj/structure/cable/green{d2 = 4; icon_state = "0-4"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "CE-win"},/turf/simulated/floor/plating,/area/casino)
+"ve" = (/obj/structure/cable/green,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "CE-win"},/turf/simulated/floor/plating,/area/casino)
+"vf" = (/obj/structure/cable/green,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "CMO-win"},/turf/simulated/floor/plating,/area/casino)
+"vg" = (/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "CMO-win"},/turf/simulated/floor/plating,/area/casino)
+"vh" = (/obj/structure/cable/green{d2 = 4; icon_state = "0-4"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "CMO-win"},/turf/simulated/floor/plating,/area/casino)
+"vi" = (/obj/structure/cable/green,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "CMO-win"},/turf/simulated/floor/plating,/area/casino)
+"vj" = (/obj/structure/cable/green,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "CO-win"},/turf/simulated/floor/plating,/area/casino)
+"vk" = (/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "CO-win"},/turf/simulated/floor/plating,/area/casino)
+"vl" = (/obj/structure/cable/green,/obj/effect/wallframe_spawn/reinforced/polarized{id = "CE-win"},/turf/simulated/floor/plating,/area/casino)
+"vm" = (/obj/structure/cable/green,/obj/effect/wallframe_spawn/reinforced/polarized{id = "CMO-win"},/turf/simulated/floor/plating,/area/casino)
+"vn" = (/obj/structure/cable/green,/obj/effect/wallframe_spawn/reinforced/polarized{id = "CO-win"},/turf/simulated/floor/plating,/area/casino)
+"vo" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/item/weapon/storage/medical_lolli_jar{pixel_y = 10},/obj/machinery/button/blast_door{id_tag = "smol-ce"; name = "Office Blast Doors"; pixel_x = -6; pixel_y = -6},/turf/simulated/floor/tiled/white,/area/casino)
+"vp" = (/obj/structure/bed/chair/office/comfy,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/button/windowtint{id = "CE-win"; pixel_x = -36; pixel_y = 26},/turf/simulated/floor/tiled,/area/casino)
+"vq" = (/obj/structure/bed/chair/office/comfy,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/button/windowtint{id = "CMO-win"; pixel_x = 36; pixel_y = 26},/turf/simulated/floor/tiled/white,/area/casino)
+"vr" = (/obj/structure/bed/chair/office/comfy,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/button/windowtint{id = "CO-win"; pixel_x = 36; pixel_y = 26},/turf/simulated/floor/carpet/blue,/area/casino)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaEaEaEaEaEaGaJadayaaaaaaaaaEaEaEaEaEaEaEaEaEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -1108,13 +1138,13 @@ abababababababababalabababababababababalababababababababababababalababdxdxababdx
 abababababababababalababababababjgjgjgjxjgjgjgjgjgjgjgjgjgjgjgjgjxjgjgirjgjgjgirjgjgjgirjgjgjxjgjyjAjAjzaeaeaeaeaeaeaeaealaeaeaeaeaeaefkaeaeaeaeaeaeaeaeaeaeaeaeaejAjAkfababababababababababababababababababababababababababababababababababaaaa
 abababababababababalabababababjyjAjAjAkdsTjAjAjAjAjAjAjAjAjAjAjAkdjAjAjzjAjAjAjzjAjAjAjzjAjAkdjAjAjAaeaeaeaeaeaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaeaeaeaeaeaejAkfababababababababababababababababababababababababababababababababababaaaa
 abababababababababalababababsHjAjAaeaealaeaeaeaeaefuaeaeaeaeaeaealalaCesesaCsIsIsIaCesesaCsIsIsIaCesesaCalalaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCjDmsjfaCaCfkaeaeaeaejAkfababababababababababababababababababababababababababababababababababaaaa
-abababababababababalababababsHjAaeaeaealaeaeaeaeaeaeaeaeaeaeaeaeaefAgigngogpgvaefAgigAgBgpgvfkfAgigEgFgpgvaeaCaCeDeDeDeDeDeDeDeDeDaEaCaCsUalaCaCasasasaCaCaCaeaeaeaesTkfabababaeaCaCaCaCaCaCaChjaCaCaCaCaCaCaCaeaeaeaeaeaeaeaeaeababababababaaaa
+abababababababababalababababsHjAaeaeaealaeaeaeaeaeaeaeaeaeaeaeaeaefAgignetgpgvaefAgigAgBgpgvfkfAgigEgFgpgvaeaCaCeDeDeDeDeDeDeDeDeDaEaCaCsUalaCaCasasasaCaCaCaeaeaeaesTkfabababaeaCaCaCaCaCaCaChjaCaCaCaCaCaCaCaeaeaeaeaeaeaeaeaeababababababaaaa
 abababababababababalababababsHjAfuaeaealaeaeaeaeaeaeaeaeaeaeaeaeaCfAgVgXmumIgvaCfAnUnWodbRgvaCfAofogokolgvaCaCeDgkejejnYnvnZgZoaeDaEaCaCoqalaCaEaEmwaEaEaCaCaCaeaeaejAkfabababhlhmhnhnhnhnhnhnhnhnhnhnhnhnhnhnhohkaeaeaeaeaeaeaeababababababaaaa
-abababababababababalababababsHjAaeaeaealaeaeaeaeaeaeaeaeaeaeaeaefAorowguoLgYgraCobaQoctqaQocaCoenVoctqnXgSaEeDmHeXohejejejejgZoialalalalalalaEibmPibmPtMsUaCaCaCaeaejAkfabababhqhraEaEaEaEaEaEaEaEaEaEaEaEaEaChphsaeaeaeaeaeaeaeaeaeaeaeaeaeaaaa
-acadabababababababalababababsHjAaeaeaealaeaeaeaeaeaeaeaeaeaeaeaefAtNnytOtPnzgxaEomgHnttQaQopaEnBoonDtRosotejejejejejejejejejgZeHeDaEaCaCalalaEibaCmvaCibaEaEaCaCaCaejAkfabababhtaEaEhuhvhwaEhxhyhzaiaiaiaiaEaEaChphoaeaeaeaeaeaeaeaeaeaeaeaeaaaa
-aeafabababababalalalalalalalsJkdalalalalalalaeaeaeaeaeaeaeaeaefkaCaCgytSongzetaEetoutTtUaQetaEetovtVtWotaEaEeDeDeDgqeDeDeDeDeDeDeDaEaCaCaEammUibaCmxaCibmUamaCaCaCaCjAkfabababhraEhwhAhBhCaEhDhEhFhGapapaiaiaEaCaChphoaeaeaeaeaeaeaeaeaeaeaeaaaa
-agahaiajabababalababababababsHjAaeaeaeaeaealaeaeaeaeaeaeaeaeaeaCaCaCaCtXgzgMgUoyhghhtYaQgMgUoGhghhtZotaEaEadaEaEgqgqgqaEaEaEaEaEaEaEaEaEiqalmMibaCaCaCibmMaliqaCaCaCjAkfabababaEaEhHhIhJhKhLhKhMhNaEhOhOaEhPaEaCaCaChtaeaeaeaeaeaeaeaeaeaeaeaaaa
-akalamanabababalababababababsHjAaeaeaeaeaealalalalalalalaCmZngaCgIgJaEuaamaEnbamnbaEuaamaEnbamnbaEuaamaEnhniaEgGgqgqgqgCaEaEaEaEaEaEaEamalamaEubaiaiaiubaEamalamaCaCjAkfabababaEhQhRhShThUaEaEaEhVaEhWhXhYamhwaEaCaChtaCaCaCaChjaCaCaCaCaChkaaaa
+abababababababababalababababsHjAaeaeaealaeaeaeaeaeaeaeaeaeaeaeaefAorowgugmgYgraCobaQgotqaQocaCoenVgstqnXgSaEeDmHeXohejejejejgZoialalalalalalaEibmPibmPtMsUaCaCaCaeaejAkfabababhqhraEaEaEaEaEaEaEaEaEaEaEaEaEaChphsaeaeaeaeaeaeaeaeaeaeaeaeaeaaaa
+acadabababababababalababababsHjAaeaeaealaeaeaeaeaeaeaeaeaeaeaeaefAtNnygMtPnzgxaEomgHnttQaQopaEnBoonDtRosotejejejejejejejejejgZeHeDaEaCaCalalaEibaCmvaCibaEaEaCaCaCaejAkfabababhtaEaEhuhvhwaEhxhyhzaiaiaiaiaEaEaChphoaeaeaeaeaeaeaeaeaeaeaeaeaaaa
+aeafabababababalalalalalalalsJkdalalalalalalaeaeaeaeaeaeaeaeaefkaCaCgytSongzgUaEhgoutTtUaQhgaEhhovtVtWotaEaEeDeDeDgqeDeDeDeDeDeDeDaEaCaCaEammUibaCmxaCibmUamaCaCaCaCjAkfabababhraEhwhAhBhCaEhDhEhFhGapapaiaiaEaCaChphoaeaeaeaeaeaeaeaeaeaeaeaaaa
+agahaiajabababalababababababsHjAaeaeaeaeaealaeaeaeaeaeaeaeaeaeaCaCaCaCtXgzoLpkoypupwtYaQtJtKoGtLtOtZotaEaEadaEaEgqgqgqaEaEaEaEaEaEaEaEaEiqalmMibaCaCaCibmMaliqaCaCaCjAkfabababaEaEhHhIhJhKhLhKhMhNaEhOhOaEhPaEaCaCaChtaeaeaeaeaeaeaeaeaeaeaeaaaa
+akalamanabababalababababababsHjAaeaeaeaeaealalalalalalalaCmZngaCgIgJaEuaamaEnbamnbaEuYamaEnbamnbaEuZamaEnhniaEgGgqgqgqgCaEaEaEaEaEaEaEamalamaEubaiaiaiubaEamalamaCaCjAkfabababaEhQhRhShThUaEaEaEhVaEhWhXhYamhwaEaCaChtaCaCaCaChjaCaCaCaCaChkaaaa
 abaoabababababalababababababsHjAaeaeaeaeaealaefkaCoCoHngaCnCoBpaamamaEozoAoFoOucoOoFoOoFoFoOoRudoFoWamaEaEswaEaEgqgqgDaEaEhZiaidicjwaEamamamaEaEnjnjnjaEaEamamamaCaCjAkfabababaEaEieifieaEaEigihiiaEcDijikilimaEaCaCinioioioioioioioioioiphraaaa
 abapabababababalababababababsHjAaeaeaeaeaealoCsEaCgTpbhbhdpdoIoIoEoEgPpfoIoKoKueoKoKoKoKoKoKoKueoKrtamaFsVswaEaEaEaEaEaEaEmkibibibiqaEmVtfmVaEmymzmAmBalaEmVtfmVaCaCjAkfabababisitiuiviwixaEiyiziAaEiBiCiDiEaEaEaCaCiFiGiHiIiJiKiLiMiNiOinaCaaaa
 abaqarababababalababababababsHjAaeaeaeaeaeaCtjsvmCoNtsoPmNrroSoToKoKmOsxalalaEufuguguguguhaEuiujaErtamsKsLswamaEaEaEalalmlalibmmibibaEalalalaEmDmEmFmGalaEalalalaCaCjAkfabababiPiQiQiQiRiSaEiTiUhwiViWaliXiYaEaEioioioiZioiojajbasjcjdjeinaCaaaa
@@ -1124,14 +1154,14 @@ abaxabababababalababababababsHjzaeaeaeaeaeutnerIalaltBpegPttpgoYalsyaEnbalamuNaF
 abayabababababalababababababsHjAaeaeaeaeaeaCtjtuuwpjuxoPnrrIoXoDoEoEgPtwalalaEunuguguguguhaEamuoaErtamsNlBswamaEaEaEalalnoamamamamamnnamalalamamnsnwnxamamalalamaCaCsTkfabababkvkwkwkwkxiSaEkyiUhwiVkzaliXiYaEaEioioiokAioiokBkCkDkEkFkGinaCaaaa
 azaAabababababalababababababsHjAaeaeaeaeaealoCuyaCnAtyojoxtzpopooKoKmOtAoIoEoEupoEoEoEoEoEoEoEuqoEukamaFsVswaEaEaEaEaEaEaEamalalalamnnamalmAmQalalmRalaleralalamaCaCjAkfabababkHjCkIivkJkKaEkLkMilaEcDaliXiEaEaEaCaCipkNkOiIiIkPkQkRkSkTkUaCaaaa
 aBaCabababababalababababababsHjAaeaeaeaeaealaefkaCoCuzngaCtCpruAoJoMaEtDtEtFtGurtGtFtGtFtFtGrdtGtFuBuCaEaEswaEaEgqgqgDaEaEamamamamamnnamalmTnpalnqmWmXalevalnaoQaCaCjAkfabababaEaEkVifkVaEaEkWkXkYaEcDkZlailimaEaCaCinioioioioioioioioioiFhoaaaa
-aDaEabababababalababababababsHjAaeaeaeaeaealalalalalalalaCuDngaCoUoZaEamtJaEnbamnbaEtJamaEnbamnbaEuEuFaEaduGaEgGgqgqgqgCaEaEaEaEaEaEaEamalalalalalalalalalalmRpcaCaCjAkfabababaElbhRhSlcldaEaEaEhVaElelflgamhwaEaCaChtaCaCaCaChjaCaCaCaCaClhaaaa
-abaFabababababalababababababsHjAaeaeaeaeaealaeaeaeaeaeaeaeaeaeaCaCaCaCphpigMtKoGtLhhpkpmgMtKoytLhhsFuHuIuJuKaEaEgqgqgqaEaEaEaEaEaEaEaEaEpnncalalalalalalalalndppaCaCjAkfabababaEaElihIljhKhLhKlkllaElmlmaEhPaEaCaCaChtaeaeaeaeaeaeaeaeaeaeaeaaaa
-abababababababalalalalalalalsJkdalalalalalalaeaeaeaeaeaeaeaeaefkaCaCphglgmpqtJaEtJpsgKgLpmtJaEtJnFnGnHnEaEaEeDeDeDgqeDeDeDeDeDeDeDaEaCaCaEptalaTalalalaTalalalamaCaCjAkfabababaCaEhwlnhFhCaElolphBlqapapaiaiaEaCaChlhraeaeaeaeaeaeaeaeaeaeaeaaaa
-abababababababababalababababsHjAaeaeaealaeaeaeaeaeaeaeaeaeaeaeaepuspglpvgNgOsqaEsrgQgRpwgLssaEnInJgWpxnHnEejejejejejejejejejgZhaeDaEaCaCaEiqaleBalmAalnfalaliqaCaCaCjAkfabababaCaEaElrlshwaEltlulvaiaiaiaiaEaEaChlhraeaeaeaeaeaeaeaeaeaeaeaeaaaa
-abababababababababalababababsHjAaeaeaealaeaeaeaeaeaeaeaeaeaeaeaepugsgtguhigwstaCszhcnKhehfsAaCnLnMnNmtnOnPaEeDmHmKmSejejejejgZeGalalalalalamalalsBsCsDamamamaCaCaCaejAkfabababhoaCaEaEaEaEaEaEaEaEaEaEaEaEaEaChlhsaeaeaeaeaeaeaeaeaeaeaeaeaeaaaa
-abababababababababalababababsHjAfuaeaealaeaeaeaeaeaeaeaeaeaeaeaeaCpusWgtgwsXpuaCpusYhchfsZpuaCpunQnMnOnRpuaCaCeDsGejejnunvfcgZeHeDaEaCaCaCaCuuamaEaEaEaEaEaCaCaCaeaejAkfabababhphnhnhnhnhnhnhnhnhnhnhnhnhnhnhnhrlhaeaeaeaeaeaeaeababababababaaaa
-abababababababababalababababsHjAaeaeaealaeaeaeaeaeaeaeaeaeaeaeaealpupytatbpypuaepupytctdpypufkpupynSnTpypuaeaCaCeDeDeDeDeDeDeDeDeDaEaCaCaCaCuvamaCaCaCaCaCaCaCaeaeaejAkfabababaeaCaCaCaCaCaCaChjaCaCaCaCaCaCaCaeaeaeaeaeaeaeaeaeababababababaaaa
-abababababababababalababababsHjAjAaeaealaeaeaeaeaefuaeaeaeaeaeaealalaCpypyaCjxjxjxaCpypyaCjxjxjxaCpypyaCalalaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCfkaeaeaeaejAkfababababababababababababababababababababababababababababababababababaaaa
+aDaEabababababalababababababsHjAaeaeaeaeaealalalalalalalaCuDngaCoUoZaEamvaaEnbamnbaEvbamaEnbamnbaEvcuFaEaduGaEgGgqgqgqgCaEaEaEaEaEaEaEamalalalalalalalalalalmRpcaCaCjAkfabababaElbhRhSlcldaEaEaEhVaElelflgamhwaEaCaChtaCaCaCaChjaCaCaCaCaClhaaaa
+abaFabababababalababababababsHjAaeaeaeaeaealaeaeaeaeaeaeaeaeaeaCaCaCaCphgtvdveoGvfvggKpmvhvioyvjvkgNuHuIuJuKaEaEgqgqgqaEaEaEaEaEaEaEaEaEpnncalalalalalalalalndppaCaCjAkfabababaEaElihIljhKhLhKlkllaElmlmaEhPaEaCaCaChtaeaeaeaeaeaeaeaeaeaeaeaaaa
+abababababababalalalalalalalsJkdalalalalalalaeaeaeaeaeaeaeaeaefkaCaCphglgRpqvlaEvmpsgWgLpmvmaEvnnFhinHnEaEaEeDeDeDgqeDeDeDeDeDeDeDaEaCaCaEptalaTalalalaTalalalamaCaCjAkfabababaCaEhwlnhFhCaElolphBlqapapaiaiaEaCaChlhraeaeaeaeaeaeaeaeaeaeaeaaaa
+abababababababababalababababsHjAaeaeaealaeaeaeaeaeaeaeaeaeaeaeaenGnKglpvnNgOsqaEsrgQnQvogLssaEnInJnRpxnHnEejejejejejejejejejgZhaeDaEaCaCaEiqaleBalmAalnfalaliqaCaCaCjAkfabababaCaEaElrlshwaEltlulvaiaiaiaiaEaEaChlhraeaeaeaeaeaeaeaeaeaeaeaeaaaa
+abababababababababalababababsHjAaeaeaealaeaeaeaeaeaeaeaeaeaeaeaenSnTpiguvpgwstaCszhcvqhehfsAaCnLnMvrmtnOnPaEeDmHmKmSejejejejgZeGalalalalalamalalsBsCsDamamamaCaCaCaejAkfabababhoaCaEaEaEaEaEaEaEaEaEaEaEaEaEaChlhsaeaeaeaeaeaeaeaeaeaeaeaeaeaaaa
+abababababababababalababababsHjAfuaeaealaeaeaeaeaeaeaeaeaeaeaeaeaCnSpyspsFsWsXaCnSsYsZtatbsXaCnStctduEuOsXaCaCeDsGejejnunvfcgZeHeDaEaCaCaCaCuuamaEaEaEaEaEaCaCaCaeaejAkfabababhphnhnhnhnhnhnhnhnhnhnhnhnhnhnhnhrlhaeaeaeaeaeaeaeababababababaaaa
+abababababababababalababababsHjAaeaeaealaeaeaeaeaeaeaeaeaeaeaeaealnSuPuQuRuSsXaenSuPuTuUuSsXfknSuPuVuWuSsXaeaCaCeDeDeDeDeDeDeDeDeDaEaCaCaCaCuvamaCaCaCaCaCaCaCaeaeaejAkfabababaeaCaCaCaCaCaCaChjaCaCaCaCaCaCaCaeaeaeaeaeaeaeaeaeababababababaaaa
+abababababababababalababababsHjAjAaeaealaeaeaeaeaefuaeaeaeaeaeaealalaCuXuXaCjxjxjxaCuXuXaCjxjxjxaCuXuXaCalalaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCfkaeaeaeaejAkfababababababababababababababababababababababababababababababababababaaaa
 abababababababababalabababababsOjAjAjAkdsTjAjAjAjAjAjAjAjAjAjAjAkdjAjAjzjAjAjAjzjAjAjAjzjAjAkdjAjAjAaeaeaeaeaeaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaeaeaeaeaeaeaejAkfababababababababababababababababababababababababababababababababababaaaa
 abababababababababalababababababsPsPsPsIsPsPsPsPsPsPsPsPsPsPsPsPsIsPsPsQsPsPsPsQsPsPsPsQsPsPsIsPsOjAjAjzaeaeaeaeaeaeaeaealaeaeaeaeaeaefkaeaeaeaeaeaeaeaeaeaeaeaeaejAjAkfababababababababababababababababababababababababababababababababababaaaa
 abababababababababalabababababababababalababababababababababababalababdxdxababdxababdxdxababalababsPsOjzjAjzaeaeaeaeaeaealaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaejAjAjAsRabababababababababababababababababababababababababababababababababababaaaa
