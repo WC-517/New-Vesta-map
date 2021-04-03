@@ -249,7 +249,7 @@
 "eO" = (/obj/machinery/atmospherics/unary/vent_pump/tank{dir = 8; external_pressure_bound = 0; external_pressure_bound_default = 0; icon_state = "map_vent_in"; id_tag = "d1so2_out"; initialize_directions = 1; internal_pressure_bound = 4000; internal_pressure_bound_default = 4000; pressure_checks = 2; pressure_checks_default = 2; pump_direction = 0; use_power = 1},/turf/simulated/floor/reinforced/carbon_dioxide,/area/casino)
 "eP" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 10},/obj/machinery/meter,/turf/simulated/floor/tiled/techfloor,/area/casino)
 "eQ" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 5},/turf/simulated/wall/r_wall/prepainted,/area/casino)
-"eR" = (/obj/machinery/atmospherics/pipe/simple/visible/black,/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 4},/turf/simulated/floor/plating,/area/casino)
+"eR" = (/obj/machinery/atmospherics/pipe/simple/visible/black,/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 4},/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/plating,/area/casino)
 "eS" = (/obj/machinery/atmospherics/unary/outlet_injector{dir = 8; frequency = 1441; icon_state = "map_injector"; id = "fuel_in"; pixel_y = 1; use_power = 1},/turf/simulated/floor/reinforced/carbon_dioxide,/area/casino)
 "eT" = (/obj/machinery/atmospherics/pipe/manifold/visible/cyan{dir = 1},/obj/machinery/meter,/turf/simulated/floor/tiled/techfloor,/area/casino)
 "eU" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4; icon_state = "intact"},/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/tiled/techfloor,/area/casino)
@@ -260,7 +260,7 @@
 "eZ" = (/obj/machinery/atmospherics/unary/outlet_injector{dir = 1; frequency = 1438; icon_state = "map_injector"; id = "cooling_in"; name = "Coolant Injector"; pixel_y = 0; power_rating = 30000; use_power = 1; volume_rate = 700},/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/reinforced/airless,/area/casino)
 "fa" = (/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/reinforced/airless,/area/casino)
 "fb" = (/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/steel_ridged,/area/casino)
-"fc" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 4},/turf/simulated/floor/plating,/area/casino)
+"fc" = (/obj/machinery/atmospherics/pipe/simple/visible/black,/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/plating,/area/casino)
 "fd" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel,/turf/simulated/floor/tiled/steel_ridged,/area/casino)
 "fe" = (/obj/effect/floor_decal/industrial/outline/red,/obj/machinery/atmospherics/tvalve/mirrored/digital{dir = 4; id_tag = "fuelmode"},/turf/simulated/floor/tiled/techfloor,/area/casino)
 "ff" = (/obj/machinery/power/shield_generator,/obj/structure/cable{d2 = 4; icon_state = "0-4"},/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/plating,/area/casino)
@@ -490,7 +490,7 @@
 "jv" = (/obj/structure/closet/secure_closet/hydroponics_torch,/obj/effect/floor_decal/corner/green{dir = 6},/turf/simulated/floor/tiled,/area/casino)
 "jw" = (/obj/structure/hygiene/sink/kitchen{pixel_x = -32; pixel_y = 0},/obj/effect/floor_decal/corner/green{dir = 8},/turf/simulated/floor/tiled,/area/casino)
 "jx" = (/obj/effect/floor_decal/corner/green{dir = 4},/obj/machinery/honey_extractor,/turf/simulated/floor/tiled,/area/casino)
-"jy" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 4},/obj/machinery/power/apc{dir = 8; name = "west bump"; pixel_x = -24},/turf/simulated/floor/tiled/techfloor,/area/casino)
+"jy" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel,/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/steel_ridged,/area/casino)
 "jz" = (/obj/machinery/button/blast_door{id_tag = "smolhydro"; name = "Window Shutters"; pixel_y = -24},/obj/effect/floor_decal/corner/green{dir = 10; icon_state = "corner_white"},/obj/effect/floor_decal/corner/green{dir = 9},/turf/simulated/floor/tiled,/area/casino)
 "jA" = (/obj/effect/floor_decal/corner/green{dir = 10; icon_state = "corner_white"},/turf/simulated/floor/tiled,/area/casino)
 "jB" = (/obj/structure/closet/shipping_wall/filled{dir = 1; pixel_y = -32},/obj/effect/floor_decal/corner/green{dir = 10; icon_state = "corner_white"},/turf/simulated/floor/tiled,/area/casino)
@@ -921,7 +921,7 @@
 "rK" = (/obj/structure/ship_munition/disperser_charge/explosive,/obj/effect/floor_decal/industrial/hatch/red,/turf/simulated/floor/tiled/techfloor,/area/casino)
 "rL" = (/obj/structure/railing/mapped,/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"},/turf/space,/area/casino)
 "rM" = (/obj/machinery/atmospherics/pipe/simple/visible/green,/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/catwalk,/obj/effect/floor_decal/industrial/warning{dir = 4},/turf/simulated/floor/plating,/area/casino)
-"rN" = (/obj/structure/closet/radiation,/obj/effect/floor_decal/industrial/warning{dir = 6},/turf/simulated/floor/tiled/techfloor/grid,/area/casino)
+"rN" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 5},/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled/techfloor/grid,/area/casino)
 "rO" = (/obj/effect/wallframe_spawn/reinforced,/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/door/blast/regular{dir = 8; id_tag = "smol-eng-obs"; name = "Engine Observation"},/turf/simulated/floor/plating,/area/casino)
 "rP" = (/obj/machinery/computer/modular/preset/engineering{dir = 8; icon_state = "console"},/obj/effect/floor_decal/floordetail/edgedrain{dir = 4; icon_state = "edge"},/obj/effect/floor_decal/techfloor{dir = 8},/turf/simulated/floor/tiled/techfloor/grid,/area/casino)
 "rQ" = (/obj/structure/table/steel_reinforced,/obj/machinery/button/blast_door{id_tag = "smol-cChamber1sV"; name = "Deck One Starboard Chamber Vent"; pixel_x = -6; pixel_y = 6},/obj/machinery/button/blast_door{id_tag = "smol-cChamber2sV"; name = "Deck Two Starboard Chamber Vent"; pixel_x = -6; pixel_y = -4},/obj/machinery/button/blast_door{id_tag = "smol-cChamber2pV"; name = "Deck Two Port Chamber Vent"; pixel_x = 6; pixel_y = -4},/obj/machinery/button/blast_door{id_tag = "smol-cChamber1pV"; name = "Deck One Port Chamber Vent"; pixel_x = 6; pixel_y = 6},/obj/machinery/status_light{id_tag = "smol-cChamber1p"; name = "Deck One Port status indicator"; pixel_x = -36; pixel_y = 8},/obj/machinery/status_light{id_tag = "smol-cChamber1s"; name = "Deck One Starboard status indicator"; pixel_x = -36; pixel_y = -8},/obj/machinery/status_light{id_tag = "smol-cChamber2s"; name = "Deck Two Starboard status indicator"; pixel_x = -24; pixel_y = -8},/obj/machinery/status_light{id_tag = "smol-cChamber2p"; name = "Deck Two Port status indicator"; pixel_x = -24; pixel_y = 8},/turf/simulated/floor/tiled/steel_grid,/area/casino)
@@ -1039,9 +1039,9 @@
 "tY" = (/obj/effect/wallframe_spawn/reinforced_phoron,/obj/machinery/atmospherics/pipe/manifold/visible/cyan{dir = 8; icon_state = "map"},/turf/simulated/floor/plating,/area/casino)
 "tZ" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 5; icon_state = "intact"},/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 10; icon_state = "intact"},/turf/simulated/wall/r_wall/prepainted,/area/casino)
 "ua" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan,/turf/simulated/wall/r_wall/prepainted,/area/casino)
-"ub" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/turf/simulated/floor/plating,/area/casino)
-"uc" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 9},/turf/simulated/floor/plating,/area/casino)
-"ud" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 5; icon_state = "intact"},/turf/simulated/floor/plating,/area/casino)
+"ub" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 4},/obj/machinery/power/apc{dir = 8; name = "west bump"; pixel_x = -24},/obj/structure/cable/green,/turf/simulated/floor/tiled/techfloor,/area/casino)
+"uc" = (/obj/structure/closet/radiation,/obj/effect/floor_decal/industrial/warning{dir = 6},/obj/item/clothing/glasses/meson,/turf/simulated/floor/tiled/techfloor/grid,/area/casino)
+"ud" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 4},/obj/machinery/power/apc{dir = 8; name = "west bump"; pixel_x = -24},/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/tiled/techfloor,/area/casino)
 "ue" = (/obj/machinery/atmospherics/pipe/simple/hidden{dir = 10},/turf/simulated/floor/plating,/area/casino)
 "uf" = (/obj/machinery/atmospherics/pipe/simple/hidden,/turf/simulated/floor/plating,/area/casino)
 "ug" = (/obj/machinery/atmospherics/pipe/simple/hidden{dir = 5; icon_state = "intact"},/turf/simulated/floor/tiled/techfloor,/area/casino)
@@ -1324,6 +1324,14 @@
 "zx" = (/obj/machinery/power/smes/buildable/preset/torch/substation_full,/obj/structure/cable,/turf/simulated/floor/plating,/area/casino)
 "zy" = (/obj/machinery/camera/network/engineering{c_tag = "Engineering - Shield Bay"; dir = 1},/obj/machinery/power/terminal{dir = 8},/obj/structure/cable/cyan{d2 = 4; icon_state = "0-4"},/obj/machinery/light/small,/obj/effect/floor_decal/industrial/warning{dir = 4; icon_state = "warning"},/turf/simulated/floor/plating,/area/casino)
 "zz" = (/obj/structure/cable/cyan{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/catwalk,/obj/item/device/radio/intercom{dir = 1; pixel_y = -28},/obj/machinery/alarm{dir = 8; icon_state = "alarm0"; pixel_x = 24},/turf/simulated/floor/plating,/area/casino)
+"zA" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan,/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/plating,/area/casino)
+"zB" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 6},/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/techfloor/grid,/area/casino)
+"zC" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/casino)
+"zD" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 6; icon_state = "intact"},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/plating,/area/casino)
+"zE" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating,/area/casino)
+"zF" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 9},/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/plating,/area/casino)
+"zG" = (/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating,/area/casino)
+"zH" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 5; icon_state = "intact"},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating,/area/casino)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabagaiaiaiaigOiVoMgOaiaiaiaiaiaiaiaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -1352,9 +1360,9 @@ abababababababababababababababababababababababababababababababababababababababab
 abababababababababababababababababababababababababababababababababababababababababababababababiLiLrLbgbgbgbgbgbgbgbgbgbgbgbgaiaiaiaiaihShTaidXdXacaTdqctapcudYagagagaiaidydyaidxdxcGeLeLcGbHiXiQababababababababababababababababababababaaaaaaaa
 abababababababababababababababababababababiLoViLiLiLiLiLiLiLiLiLiLiLiLiLiLiLiLoViLiLiLiLiLiLrLbgbgbgbgaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaihUhVcjacacacaThWhXiaaoagagbxbxadaidyfgaddxfhcGcxdUcGaEatabababababababababababababababababababababaaaaaaaa
 abababababababababababababababababababiLiMbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgaibcaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiibieifijuBacaTaTaTimadadadbIeecvdEadecadaoficGedcycGaEatabababababababababababababababababababababaaaaaaaa
-ababababababababababababababababababiMbgbgbgaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaIaiacaiaiacijizijijijijijijijijijijijizkNkOgCacuAijkQoQoQpKfcfcfcfcfcfceRdieNaIaIcRaIaSaEdaazatabababababababababababababababababababababaaaaaaaa
-abababababababababababababababababiRbgbgaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaFaiacacacacaTpPaTaTaTadadadadadadadadpPadadgVadadadfdadadadadadadadadadcQfdbedrdsdwdRdWbeejazatabababababababababababababababababababababaaaaaaaa
-abababababababababababababababababiRbgiYaiaiaiacacacacacacacacacacacacacacacacacacacacacacuxaiaIaiacacaTaTaTtrpEpFaTadtktltmtvtntotpuIanadgVadaIaItuadadadadadadadadadcQeQjyeVeVfeeVeVdaeKeMatabababababababababababababababababababababaaaaaaaa
+ababababababababababababababababababiMbgbgbgaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaIaiacaiaiacijizijijijijijijijijijijijizkNkOgCacuAijkQoQoQpKoQoQoQoQoQoQeRdieNaIaIcRaIaSaEdaazatabababababababababababababababababababababaaaaaaaa
+abababababababababababababababababiRbgbgaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaFaiacacacacaTpPaTaTaTadadadadadadadadpPadadgVadadadfdadadadadadadadadadfcjyrNdrdsdwdRdWbeejazatabababababababababababababababababababababaaaaaaaa
+abababababababababababababababababiRbgiYaiaiaiacacacacacacacacacacacacacacacacacacacacacacuxaiaIaiacacaTaTaTtrpEpFaTadtktltmtvtntotpuIanadgVadaIaItuadadadadadadadadadcQeQubeVeVfeeVeVdaeKeMatabababababababababababababababababababababaaaaaaaa
 abababababababababababababababababiRiSaiaiaiacacadadadacacacacacacacacacacacacacadadadacacacacacacacacaTancjtrpGpHpIadtqtHtJxIqlqlqlxJtsadgVadhWhXxKfueOdgdgdgdgdgadadcQadadadadadadadadaiaiaiabababababababababababababababababababababaaaaaaaa
 abababababababababababababababababababaiaiadadadadbNadacadadadadadadadadadadadadadbZadadadadadadacacacaTxLqlxMxNaQaTadttxStKtvtwantxuItsadgVadaIaIaIaodgdgdgdgdgdgadaddzcvaqapapaqapapePccabaiaiaDaDaDaDaDabababababababababababababababaaaaaaaa
 abababababababababababababababababababbmafafafafdJcsdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbgnisisisisitaddFdIacaLuIcjpJxTpLaTadadadadadtyantzuItAadgVadaIaIfvfAeSdgdgdgdgdgadadacadaJaIaIaRaUeTbhbibjbkbkbkbkbkblaDabababababababababababababababaaaaaaaa
@@ -1364,7 +1372,7 @@ ababajakalamabababababababababababababbmafafafafaiaibrbraiaiaiaiaiaFaFaxadbBbCbD
 ababauanavawabababababababababababababbmafafafaiaiigkIkIkJadaFaFchaFaFcIfpuHhyhzhzhzhAasatdJiuadadadgWaTuIaTxYanpSaTaTimaTaTadadpPadcjadadycydyeyfiAiAiAiBiCjdeaekelemendOdPendQdSdTeWbJbKbAbtbtbkbtbtblaDabababababababababababababababaaaaaaaa
 abababaAabababababababababababababababbmafafafaiadhBhCanhDcjaFaFhEaFaFhFadhGbLbMbMbMhHasatdJivbOpUeujfbOygcjyhpTssaTanuIanpbadtLyitMaktNadnUnfoqolepeqakoradadfbdhadadadadaJaIdGdVeUeXfqbTbjbkbkbkbkbkbuaDabababababababababababababababaaaaaaaa
 abababaGabababababababababababababababbmafaibraiadadhIankKcjaIaIhEaIaIhFadyjadadadadaHaiaidJiwaFaFixotaFykaTaTcjaTaTanuIanpbadtOyltQtPtRadoBcjaTolereJakosadgToyozadgfgMaIcbaCrMadcdcwcdcecfababcgababcgskabababababababababababababababaaaaaaaa
-abababaIaFababababababababababababababbmafbrhKhLcicjhIanhDadananhDananhMhNymbaaBadcpcqaicrcriwaFaFiyotaFcacjcpbObPsravjqynqlwOqlxVqlwOqlyoqlwOypxynFnFouowcjoCacoDadltrNadfHfRrSebeYeZfaskczababcgababcgababababababababababababababababaaaaaaaa
+abababaIaFababababababababababababababbmafbrhKhLcicjhIanhDadananhDananhMhNymbaaBadcpcqaicrcriwaFaFiyotaFcacjcpbObPsravjqynqlwOqlxVqlwOqlyoqlwOypxynFnFouowcjoCacoDadltucadfHfRrSebeYeZfaskczababcgababcgababababababababababababababababaaaaaaaa
 abababaLabababababababababababababababbmafbrcAyqyrysytyryuysyryryvywyryxyyyzyAhYaIcEaKcFgrgygzgAgAgBxzxAxBxCxDxAxBxCxEvjxFxAxExAxAxAxExAzexAxExGxHoxoAoEoFoIoSueyBadaIadadgGfkgIgHfjgRfloKcHagagagagagagagabababababababababababababababaaaaaaaa
 ababaMaNaOaPabababababababababababababbmafbrhZyCcJcjkLanyDadananhDyEanhIadadyFadadaduyaicNcNiwaFaFiDjeaFcacjcEcOcPsravuIihanavanananavanzfanoJaToLoGoNoHyGadoTufoPoUoUoZrOyHgLrTebfmfnfoskczababcgababcgababababababababababababababababaaaaaaaa
 abababaQabababababababababababababababbmafaibraiadadkManyIcjaIaIhEyJaIhJaIadyKcXcXcXaSaiaidJiwaFaFiEjeaFoRadesesesadadpPadadanananadadaduCavadadrQovoNoHstadsIuguhuioOrPsJyLaJrMadcdcwcdcYcZababcgababcgskabababababababababababababababaaaaaaaa
@@ -1376,12 +1384,12 @@ abababafabababababababababababababababbmafafafafafeueueueueueueueueueueueueueueu
 abababbgabababababababababababababababbmafafafafdJiGdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbiHisisisisiIadeuevacaTjhadadadadadaTyiadadadadadadadaTuzadfJbbaFaFfKfLfMfNbofOfPeSadacaddldmdndodpeWbhbibjbkbkbkbkbkbuaDabababababababababababababababaaaaaaaa
 abababababababababababababababababababaiaiadadadadiJadacadadadadadadadadadadadadadiKadadadadadadacacacaTaksFjjjkjmjnjoyijpadffjCzgadacacuzadfQgXfSfSfTfSfSfUfTfVadadadacaddqfWhlfXfYfYfZccabaiaiaDaDaDaDaDabababababababababababababababaaaaaaaa
 abababababababababababababababababiRiOaiaiaiacacadadadacacacacacacacacacacacacacadadadacacacacacacacaTaTsGjtakakakakakyijraddXdXzhadacacuzadfQgXgagagbaFaFgcgdfCaodvadhmtTtTtUtVadadadadaiaiaiabababababababababababababababababababababaaaaaaaa
-abababababababababababababababababiRbgiZaiaiaiacacacacacacacacacacacacacacacacacacacacacacuxaiaIaiacakjsjtsHsHsHsHsHsHyijvadzizjzkadacacuzadgegYbnggbogZtWghbohafPgiadtXhbjyeVeVhceVeVdaeKhddDabababababababababababababababababababababaaaaaaaa
-abababababababababababababababababiRbgbgaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaFaiacaTjwjYakakakakakakxRjxadadaduzadacacuzadgjgkbEfCbEbbheglgmhfgogpadtXaGardrhgdwdRhharejazdDabababababababababababababababababababababaaaaaaaa
-ababababababababababababababababababiTbgbgbgaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaIaiacaiyWyXyYyYyYyYyYyYjXakakacacuAijijijzladadhihjhkgqtYtZhngqaoadadadtXadaSaIaIhoaIaSaEdaazdDabababababababababababababababababababababaaaaaaaa
-abababababababababababababababababababiQiTbgbgbgbgbguubgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgaibraiaijzjAjAjAjBjAjAjAzmaiaiaiaiacacacuAuBadgsgtadgugvuagwgxdyadhmubucadecadaohpcGhqcycGaEdDabababababababababababababababababababababaaaaaaaa
-abababababababababababababababababababababiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiTbgbgbgaiaiaijljljlaijljljlaiaiaiaiaiaiaiacacuzadadadadadaduaadadadadtXaiaiaihraddxhscGhtdUcGaEdDabababababababababababababababababababababaaaaaaaa
-abababababababababababababababababababababababababababababababababababababababababababababababiQiTbgbgbgbgbgbgbgbgbgbgbgbgbgaiaiaiaiaiaiaiuAuBacacacacacudububububucaidydydyaidxdxcGhuhucGhvjaiLababababababababababababababababababababaaaaaaaa
+abababababababababababababababababiRbgiZaiaiaiacacacacacacacacacacacacacacacacacacacacacacuxaiaIaiacakjsjtsHsHsHsHsHsHyijvadzizjzkadacacuzadgegYbnggbogZtWghbohafPgiadtXhbudeVeVhceVeVdaeKhddDabababababababababababababababababababababaaaaaaaa
+abababababababababababababababababiRbgbgaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaFaiacaTjwjYakakakakakakxRjxadadaduzadacacuzadgjgkbEfCbEbbheglgmhfgogpadzAypzBdrhgdwdRhharejazdDabababababababababababababababababababababaaaaaaaa
+ababababababababababababababababababiTbgbgbgaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaIaiacaiyWyXyYyYyYyYyYyYjXakakacacuAijijijzladadhihjhkgqtYtZhngqaoadadadzCadaSaIaIhoaIaSaEdaazdDabababababababababababababababababababababaaaaaaaa
+abababababababababababababababababababiQiTbgbgbgbgbguubgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgaibraiaijzjAjAjAjBjAjAjAzmaiaiaiaiacacacuAuBadgsgtadgugvuagwgxdyadzDzEzFadecadaohpcGhqcycGaEdDabababababababababababababababababababababaaaaaaaa
+abababababababababababababababababababababiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiTbgbgbgaiaiaijljljlaijljljlaiaiaiaiaiaiaiacacuzadadadadadaduaadadadadzCaiaiaihraddxhscGhtdUcGaEdDabababababababababababababababababababababaaaaaaaa
+abababababababababababababababababababababababababababababababababababababababababababababababiQiTbgbgbgbgbgbgbgbgbgbgbgbgbgaiaiaiaiaiaiaiuAzGijijijijijzHzEzEzEzEzFaidydydyaidxdxcGhuhucGhvjaiLababababababababababababababababababababaaaaaaaa
 abababababababababababababababababababababababababababababababababababababababababababababababababiQiQiQiQiQiQiQiQiQiQiQiTbgbgbgaiaiaiaiaiaiuCavaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaicGjbagjbhwbgbgiNabababababababababababababababababababaaaaaaaa
 abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababiQiTbgbgusaiaiaiuDuEqlqlqluFqluGaiaiaiaiaiaiaiaiaiaiaiaibgiSiSiSbgbgiUababababababababababababababababababababaaaaaaaa
 ababababababababababababababababababababababababababababababababababababababababababaiaiaiaiaiaiaijDjDjDjDjDjEjDjDjDjDjDaiababutbgiUabaiaixQuIanuJuKuLuMuIaibgbgbgbgbgbgbgbgbgbgbgbgiNababiQiQabababababababababababababababababababababaaaaaaaa
