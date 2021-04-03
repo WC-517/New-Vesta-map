@@ -1063,6 +1063,161 @@
 "uw" = (/obj/structure/ladder/up,/turf/simulated/floor/tiled/dark,/area/casino)
 "ux" = (/obj/machinery/suit_storage_unit/standard_unit,/turf/simulated/floor/plating,/area/casino)
 "uy" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel,/turf/simulated/wall/r_wall/prepainted,/area/casino)
+"uz" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/casino)
+"uA" = (/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/plating,/area/casino)
+"uB" = (/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/plating,/area/casino)
+"uC" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
+"uD" = (/obj/structure/closet/toolcloset,/turf/simulated/floor/tiled/dark,/area/casino)
+"uE" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/dark,/area/casino)
+"uF" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/bed/chair/office/dark,/turf/simulated/floor/tiled/dark,/area/casino)
+"uG" = (/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled/dark,/area/casino)
+"uH" = (/obj/structure/table/steel,/obj/machinery/cell_charger,/obj/item/weapon/reagent_containers/food/drinks/glass2/coffeecup/dais{pixel_x = -6; pixel_y = 12},/obj/item/stack/cable_coil{pixel_x = 3; pixel_y = -7},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
+"uI" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dark,/area/casino)
+"uJ" = (/obj/machinery/computer/message_monitor{dir = 1},/turf/simulated/floor/tiled/dark,/area/casino)
+"uK" = (/obj/machinery/computer/rdservercontrol{dir = 1},/turf/simulated/floor/tiled/dark,/area/casino)
+"uL" = (/obj/machinery/computer/telecomms/monitor{dir = 1},/obj/structure/window/reinforced{dir = 2; health = 1e+007},/turf/simulated/floor/tiled/dark,/area/casino)
+"uM" = (/obj/machinery/computer/telecomms/server{dir = 1; icon_state = "computer"; network = "tcommsat"},/obj/structure/window/reinforced{dir = 2; health = 1e+007},/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/tiled/dark,/area/casino)
+"uN" = (/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/tiled/dark,/area/casino)
+"uO" = (/obj/effect/wallframe_spawn/reinforced,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dark,/area/casino)
+"uP" = (/obj/machinery/door/airlock/hatch{name = "Telecoms Server Access"; secured_wires = 1},/obj/structure/cable/cyan{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/dark,/area/casino)
+"uQ" = (/obj/effect/wallframe_spawn/reinforced,/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/casino)
+"uR" = (/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/table/rack,/obj/item/clothing/suit/storage/hooded/wintercoat/dais{pixel_y = 12},/turf/simulated/floor/tiled/dark,/area/casino)
+"uS" = (/obj/structure/cable/cyan{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled/dark,/area/casino)
+"uT" = (/obj/structure/railing/mapped{dir = 8; icon_state = "railing0-1"},/obj/structure/railing/mapped{dir = 1; icon_state = "railing0-1"},/turf/space,/area/casino)
+"uU" = (/obj/machinery/power/smes/batteryrack,/obj/structure/cable/cyan{icon_state = "0-2"},/turf/simulated/floor/bluegrid,/area/casino)
+"uV" = (/obj/machinery/power/terminal{dir = 8},/obj/structure/cable/green,/turf/simulated/floor/tiled/dark,/area/casino)
+"uW" = (/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dark,/area/casino)
+"uX" = (/obj/machinery/telecomms/hub/preset,/turf/simulated/floor/bluegrid,/area/casino)
+"uY" = (/obj/machinery/power/smes/buildable/preset/on_full{RCon_tag = "Substation - Telecommunications"},/obj/structure/cable/cyan{d2 = 2; dir = 1; icon_state = "0-2"},/turf/simulated/floor/tiled/dark,/area/casino)
+"uZ" = (/obj/machinery/telecomms/bus/preset_four,/turf/simulated/floor/bluegrid,/area/casino)
+"va" = (/obj/machinery/telecomms/processor/preset_three,/obj/structure/cable/cyan{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/bluegrid,/area/casino)
+"vb" = (/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/casino)
+"vc" = (/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/cyan{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled/dark,/area/casino)
+"vd" = (/obj/machinery/telecomms/processor/preset_three,/turf/simulated/floor/bluegrid,/area/casino)
+"ve" = (/obj/effect/catwalk_plated/dark,/turf/simulated/floor/plating,/area/casino)
+"vf" = (/obj/machinery/telecomms/receiver/preset_right,/turf/simulated/floor/bluegrid,/area/casino)
+"vg" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 4},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
+"vh" = (/obj/machinery/message_server,/turf/simulated/floor/bluegrid,/area/casino)
+"vi" = (/obj/machinery/telecomms/broadcaster/preset_right,/turf/simulated/floor/bluegrid,/area/casino)
+"vj" = (/obj/machinery/r_n_d/server/core,/turf/simulated/floor/bluegrid,/area/casino)
+"vk" = (/obj/machinery/r_n_d/server/robotics,/turf/simulated/floor/bluegrid,/area/casino)
+"vl" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 8},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
+"vm" = (/obj/machinery/bluespacerelay,/turf/simulated/floor/bluegrid,/area/casino)
+"vn" = (/obj/structure/table/steel,/obj/item/device/multitool,/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/dark,/area/casino)
+"vo" = (/obj/structure/table/steel,/obj/item/weapon/paper_bin,/obj/item/weapon/folder/yellow,/obj/item/weapon/pen/blue{pixel_x = -3; pixel_y = 2},/obj/structure/cable/cyan{d2 = 2; icon_state = "0-2"},/obj/machinery/power/apc/super/critical{dir = 1; is_critical = 1; name = "north bump"; pixel_y = 24},/turf/simulated/floor/tiled/dark,/area/casino)
+"vp" = (/obj/item/weapon/stock_parts/subspace/amplifier,/obj/item/weapon/stock_parts/subspace/amplifier,/obj/item/weapon/stock_parts/subspace/amplifier,/obj/structure/table/rack,/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 4},/turf/simulated/floor/tiled/monotile,/area/casino)
+"vq" = (/obj/item/weapon/stock_parts/subspace/ansible,/obj/item/weapon/stock_parts/subspace/ansible,/obj/item/weapon/stock_parts/subspace/ansible,/obj/structure/table/rack,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/firealarm{dir = 2; pixel_y = 24},/turf/simulated/floor/tiled/monotile,/area/casino)
+"vr" = (/obj/item/weapon/stock_parts/subspace/crystal,/obj/item/weapon/stock_parts/subspace/crystal,/obj/item/weapon/stock_parts/subspace/crystal,/obj/structure/table/rack,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 6},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/obj/machinery/alarm{pixel_y = 24},/turf/simulated/floor/tiled/monotile,/area/casino)
+"vs" = (/obj/item/weapon/stock_parts/subspace/filter,/obj/item/weapon/stock_parts/subspace/filter,/obj/item/weapon/stock_parts/subspace/filter,/obj/item/weapon/stock_parts/subspace/filter,/obj/item/weapon/stock_parts/subspace/filter,/obj/structure/table/rack,/obj/machinery/atmospherics/unary/vent_pump/on{dir = 8},/turf/simulated/floor/tiled/monotile,/area/casino)
+"vt" = (/obj/machinery/telecomms/server/presets/service,/turf/simulated/floor/bluegrid,/area/casino)
+"vu" = (/obj/machinery/telecomms/server/presets/security,/turf/simulated/floor/bluegrid,/area/casino)
+"vv" = (/obj/machinery/telecomms/server/presets/science,/turf/simulated/floor/bluegrid,/area/casino)
+"vw" = (/obj/machinery/telecomms/server/presets/supply,/turf/simulated/floor/bluegrid,/area/casino)
+"vx" = (/obj/machinery/telecomms/processor/preset_two,/obj/effect/floor_decal/industrial/outline/grey,/turf/simulated/floor/bluegrid,/area/casino)
+"vy" = (/obj/machinery/telecomms/bus/preset_two,/obj/effect/floor_decal/industrial/outline/grey,/turf/simulated/floor/bluegrid,/area/casino)
+"vz" = (/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/item/device/radio/intercom{dir = 8; pixel_x = 21},/turf/simulated/floor/tiled/dark,/area/casino)
+"vA" = (/obj/item/weapon/stock_parts/subspace/analyzer,/obj/item/weapon/stock_parts/subspace/analyzer,/obj/item/weapon/stock_parts/subspace/analyzer,/obj/structure/table/rack,/obj/machinery/light/small{dir = 8},/turf/simulated/floor/tiled/monotile,/area/casino)
+"vB" = (/obj/effect/landmark{name = "xeno_spawn"; pixel_x = -1},/turf/simulated/floor/tiled,/area/casino)
+"vC" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled,/area/casino)
+"vD" = (/obj/item/weapon/stock_parts/subspace/transmitter,/obj/item/weapon/stock_parts/subspace/transmitter,/obj/structure/table/rack,/obj/item/weapon/stock_parts/computer/hard_drive/portable,/obj/item/weapon/stock_parts/computer/hard_drive/portable,/turf/simulated/floor/tiled/monotile,/area/casino)
+"vE" = (/obj/machinery/telecomms/server/presets/command,/turf/simulated/floor/bluegrid,/area/casino)
+"vF" = (/obj/machinery/telecomms/server/presets/common,/turf/simulated/floor/bluegrid,/area/casino)
+"vG" = (/obj/machinery/telecomms/server/presets/engineering,/turf/simulated/floor/bluegrid,/area/casino)
+"vH" = (/obj/machinery/telecomms/server/presets/exploration,/turf/simulated/floor/bluegrid,/area/casino)
+"vI" = (/obj/machinery/telecomms/server/presets/infantry,/turf/simulated/floor/bluegrid,/area/casino)
+"vJ" = (/obj/machinery/telecomms/server/presets/medical,/turf/simulated/floor/bluegrid,/area/casino)
+"vK" = (/obj/machinery/alarm/server{dir = 4; pixel_x = -22; pixel_y = 0; req_access = list(list("ACCESS_ENGINE_EQUIP","ACCESS_ATMOS"))},/turf/simulated/floor/tiled/dark,/area/casino)
+"vL" = (/obj/machinery/telecomms/bus/preset_one,/obj/effect/floor_decal/industrial/outline/grey,/turf/simulated/floor/bluegrid,/area/casino)
+"vM" = (/obj/machinery/telecomms/processor/preset_one,/obj/effect/floor_decal/industrial/outline/grey,/turf/simulated/floor/bluegrid,/area/casino)
+"vN" = (/obj/item/weapon/stock_parts/micro_laser,/obj/item/weapon/stock_parts/manipulator,/obj/item/weapon/stock_parts/manipulator,/obj/item/weapon/stock_parts/manipulator,/obj/item/weapon/stock_parts/manipulator,/obj/item/weapon/stock_parts/capacitor,/obj/item/weapon/stock_parts/micro_laser/high,/obj/item/weapon/stock_parts/micro_laser/high,/obj/item/weapon/stock_parts/micro_laser/high,/obj/item/weapon/stock_parts/micro_laser/high,/obj/structure/table/rack,/obj/item/device/radio/intercom{dir = 4; pixel_x = -21},/turf/simulated/floor/tiled/monotile,/area/casino)
+"vO" = (/obj/machinery/light/small{dir = 4},/obj/machinery/firealarm{dir = 4; pixel_x = 24},/turf/simulated/floor/tiled/monotile,/area/casino)
+"vP" = (/obj/effect/floor_decal/industrial/outline/grey,/obj/machinery/camera/network/command{c_tag = "Telecommunications - Server Room Starboard"},/obj/machinery/power/smes/batteryrack,/obj/structure/cable/cyan{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/bluegrid,/area/casino)
+"vQ" = (/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
+"vR" = (/obj/machinery/firealarm{dir = 4; pixel_x = 24},/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/cyan{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
+"vS" = (/obj/structure/table/rack,/obj/item/weapon/stock_parts/subspace/treatment,/obj/item/weapon/stock_parts/subspace/treatment,/obj/item/weapon/stock_parts/subspace/treatment,/turf/simulated/floor/tiled/monotile,/area/casino)
+"vT" = (/obj/structure/table/rack,/obj/item/weapon/stock_parts/circuitboard/telecomms/processor,/obj/item/weapon/stock_parts/circuitboard/telecomms/processor,/obj/item/weapon/stock_parts/circuitboard/telecomms/receiver,/obj/item/weapon/stock_parts/circuitboard/telecomms/server,/obj/item/weapon/stock_parts/circuitboard/telecomms/server,/obj/item/weapon/stock_parts/circuitboard/telecomms/bus,/obj/item/weapon/stock_parts/circuitboard/telecomms/bus,/obj/item/weapon/stock_parts/circuitboard/telecomms/broadcaster,/turf/simulated/floor/tiled,/area/casino)
+"vU" = (/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/light_switch{pixel_x = 22; pixel_y = -22},/turf/simulated/floor/tiled,/area/casino)
+"vV" = (/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 24},/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/tiled/monotile,/area/casino)
+"vW" = (/obj/machinery/telecomms/broadcaster/preset_right,/obj/machinery/light{dir = 8},/obj/effect/floor_decal/industrial/outline/grey,/turf/simulated/floor/bluegrid,/area/casino)
+"vX" = (/obj/machinery/power/terminal{dir = 1; icon_state = "term"},/obj/structure/cable/green{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/bluegrid,/area/casino)
+"vY" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
+"vZ" = (/obj/machinery/telecomms/server/presets/science,/obj/effect/floor_decal/industrial/outline/grey,/turf/simulated/floor/bluegrid,/area/casino)
+"wa" = (/obj/machinery/telecomms/server/presets/supply,/obj/effect/floor_decal/industrial/outline/grey,/turf/simulated/floor/bluegrid,/area/casino)
+"wb" = (/obj/machinery/telecomms/server/presets/medical,/obj/effect/floor_decal/industrial/outline/grey,/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/bluegrid,/area/casino)
+"wc" = (/obj/machinery/door/airlock/highsecurity{name = "Telecoms Storage"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/steel_ridged,/area/casino)
+"wd" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 4},/obj/effect/catwalk_plated/dark,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/casino)
+"we" = (/obj/machinery/telecomms/server/presets/security,/obj/effect/floor_decal/industrial/outline/grey,/turf/simulated/floor/bluegrid,/area/casino)
+"wf" = (/obj/machinery/telecomms/server/presets/service,/obj/effect/floor_decal/industrial/outline/grey,/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/bluegrid,/area/casino)
+"wg" = (/obj/structure/cable/cyan{d2 = 2; icon_state = "0-2"},/obj/machinery/power/smes/buildable/preset/on_full{RCon_tag = "Substation - Telecommunications"},/turf/simulated/floor/tiled/dark,/area/casino)
+"wh" = (/obj/machinery/power/terminal{dir = 8},/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/tiled/dark,/area/casino)
+"wi" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/dark,/area/casino)
+"wj" = (/obj/machinery/light{dir = 1},/obj/structure/closet/toolcloset,/turf/simulated/floor/tiled/dark/monotile,/area/casino)
+"wk" = (/obj/machinery/telecomms/hub/preset,/obj/effect/floor_decal/industrial/outline/grey,/turf/simulated/floor/bluegrid,/area/casino)
+"wl" = (/obj/machinery/bluespacerelay,/obj/effect/floor_decal/industrial/outline/grey,/turf/simulated/floor/bluegrid,/area/casino)
+"wm" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 6},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 5},/obj/effect/catwalk_plated/dark,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/casino)
+"wn" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/effect/catwalk_plated/dark,/turf/simulated/floor/plating,/area/casino)
+"wo" = (/obj/structure/cable/cyan{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/light_switch{pixel_x = 22; pixel_y = -22},/obj/effect/catwalk_plated/dark,/turf/simulated/floor/plating,/area/casino)
+"wp" = (/obj/machinery/door/airlock/hatch{name = "Telecoms Server Access"; secured_wires = 1},/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/tiled/techmaint,/area/casino)
+"wq" = (/obj/machinery/light,/obj/structure/cable/cyan{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/tiled/dark,/area/casino)
+"wr" = (/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/extinguisher_cabinet{pixel_y = -32},/turf/simulated/floor/tiled/dark,/area/casino)
+"ws" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 4},/turf/simulated/floor/tiled/dark,/area/casino)
+"wt" = (/obj/machinery/alarm{dir = 8; icon_state = "alarm0"; pixel_x = 24},/obj/structure/table/rack,/obj/item/clothing/suit/storage/hooded/wintercoat/engineering,/obj/item/clothing/suit/storage/hooded/wintercoat/dais{pixel_y = 12},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
+"wu" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 4},/turf/simulated/floor/tiled/dark,/area/casino)
+"wv" = (/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 4},/obj/effect/catwalk_plated/dark,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/casino)
+"ww" = (/obj/machinery/telecomms/server/presets/common,/obj/effect/floor_decal/industrial/outline/grey,/turf/simulated/floor/bluegrid,/area/casino)
+"wx" = (/obj/machinery/telecomms/server/presets/command,/obj/effect/floor_decal/industrial/outline/grey,/turf/simulated/floor/bluegrid,/area/casino)
+"wy" = (/obj/effect/floor_decal/industrial/outline/grey,/obj/machinery/telecomms/server/presets/exploration,/turf/simulated/floor/bluegrid,/area/casino)
+"wz" = (/obj/structure/sign/warning/server_room,/turf/simulated/wall/prepainted,/area/casino)
+"wA" = (/obj/effect/floor_decal/industrial/warning,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/camera/network/command{c_tag = "Telecommunications - Server Entry"; dir = 4},/turf/simulated/floor/tiled/dark,/area/casino)
+"wB" = (/obj/effect/floor_decal/industrial/warning/corner{dir = 8; icon_state = "warningcorner"},/obj/structure/window/reinforced,/obj/structure/table/steel,/obj/machinery/cell_charger,/obj/item/weapon/storage/lunchbox/dais{pixel_x = 6; pixel_y = 6},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
+"wC" = (/obj/machinery/telecomms/receiver/preset_right,/obj/machinery/light{dir = 8},/obj/effect/floor_decal/industrial/outline/grey,/turf/simulated/floor/bluegrid,/area/casino)
+"wD" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
+"wE" = (/obj/machinery/r_n_d/server/robotics,/obj/effect/floor_decal/industrial/outline/grey,/turf/simulated/floor/bluegrid,/area/casino)
+"wF" = (/obj/effect/floor_decal/industrial/outline/grey,/obj/machinery/message_server,/turf/simulated/floor/bluegrid,/area/casino)
+"wG" = (/obj/machinery/r_n_d/server/core,/obj/effect/floor_decal/industrial/outline/grey,/turf/simulated/floor/bluegrid,/area/casino)
+"wH" = (/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/casino)
+"wI" = (/obj/machinery/computer/telecomms/monitor{dir = 4; icon_state = "computer"; network = "tcommsat"},/turf/simulated/floor/lino,/area/casino)
+"wJ" = (/obj/structure/table/steel,/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 4},/obj/item/weapon/storage/toolbox/mechanical,/obj/item/stack/cable_coil{pixel_x = 3; pixel_y = -7},/obj/random/smokes,/obj/item/weapon/reagent_containers/food/drinks/glass2/coffeecup/dais{pixel_x = -6; pixel_y = 12},/turf/simulated/floor/lino,/area/casino)
+"wK" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 8},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 4},/turf/simulated/floor/lino,/area/casino)
+"wL" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 8},/obj/structure/reagent_dispensers/water_cooler{dir = 8},/obj/machinery/light{dir = 4},/turf/simulated/floor/lino,/area/casino)
+"wM" = (/obj/effect/floor_decal/industrial/outline/grey,/obj/machinery/camera/network/command{c_tag = "Telecommunications - Server Room Port"; dir = 1},/obj/machinery/ntnet_relay,/turf/simulated/floor/bluegrid,/area/casino)
+"wN" = (/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
+"wO" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
+"wP" = (/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
+"wQ" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/casino)
+"wR" = (/obj/machinery/computer/telecomms/server{dir = 4; icon_state = "computer"; network = "tcommsat"},/turf/simulated/floor/lino,/area/casino)
+"wS" = (/obj/structure/bed/chair/office/dark{dir = 8},/turf/simulated/floor/lino,/area/casino)
+"wT" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/hologram/holopad,/turf/simulated/floor/lino,/area/casino)
+"wU" = (/obj/machinery/camera/network/command{c_tag = "Telecommunications -  Control"; dir = 8},/obj/machinery/computer/modular/preset/aislot/research{dir = 8; icon_state = "console"},/turf/simulated/floor/lino,/area/casino)
+"wV" = (/obj/item/device/radio/intercom{dir = 4; pixel_x = -21},/turf/simulated/floor/tiled/dark,/area/casino)
+"wW" = (/obj/machinery/telecomms/bus/preset_four,/obj/effect/floor_decal/industrial/outline/grey,/turf/simulated/floor/bluegrid,/area/casino)
+"wX" = (/obj/machinery/telecomms/processor/preset_four,/obj/effect/floor_decal/industrial/outline/grey,/turf/simulated/floor/bluegrid,/area/casino)
+"wY" = (/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/dark,/area/casino)
+"wZ" = (/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/green{d2 = 4; icon_state = "0-4"},/obj/effect/wallframe_spawn/reinforced,/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating,/area/casino)
+"xa" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/computer/message_monitor{dir = 4; icon_state = "computer"},/turf/simulated/floor/lino,/area/casino)
+"xb" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/lino,/area/casino)
+"xc" = (/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/lino,/area/casino)
+"xd" = (/obj/structure/table/steel,/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/obj/item/weapon/storage/box/cups,/obj/machinery/power/apc/hyper{dir = 4; name = "east bump"; pixel_x = 24},/turf/simulated/floor/lino,/area/casino)
+"xe" = (/obj/structure/table/steel,/obj/item/weapon/cell/high,/obj/item/weapon/cell/high,/obj/item/weapon/cell/high,/turf/simulated/floor/tiled/dark,/area/casino)
+"xf" = (/obj/machinery/telecomms/processor/preset_three,/obj/effect/floor_decal/industrial/outline/grey,/turf/simulated/floor/bluegrid,/area/casino)
+"xg" = (/obj/machinery/telecomms/bus/preset_three,/obj/effect/floor_decal/industrial/outline/grey,/turf/simulated/floor/bluegrid,/area/casino)
+"xh" = (/obj/machinery/light,/turf/simulated/floor/tiled/dark,/area/casino)
+"xi" = (/obj/structure/cable/green,/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/casino)
+"xj" = (/obj/machinery/computer/rdservercontrol{dir = 4; icon_state = "computer"},/turf/simulated/floor/lino,/area/casino)
+"xk" = (/obj/structure/table/steel,/obj/item/device/flashlight/lamp,/obj/random_multi/single_item/boombox,/turf/simulated/floor/lino,/area/casino)
+"xl" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/lino,/area/casino)
+"xm" = (/obj/structure/table/steel,/obj/structure/noticeboard{pixel_x = 32},/obj/item/weapon/paper_bin,/obj/item/weapon/pen,/obj/item/sticky_pad/random,/turf/simulated/floor/lino,/area/casino)
+"xn" = (/obj/machinery/disposal,/obj/effect/floor_decal/industrial/hatch/yellow,/obj/structure/disposalpipe/trunk{dir = 4},/obj/machinery/newscaster{pixel_y = -32},/obj/item/device/radio/intercom{dir = 4; pixel_x = -21},/turf/simulated/floor/tiled/dark,/area/casino)
+"xo" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/disposalpipe/segment{dir = 2; icon_state = "pipe-c"},/obj/machinery/light_switch{pixel_x = 22; pixel_y = -22},/turf/simulated/floor/lino,/area/casino)
+"xp" = (/obj/structure/filingcabinet,/obj/machinery/light{dir = 4},/obj/machinery/firealarm{dir = 4; pixel_x = 24},/turf/simulated/floor/lino,/area/casino)
+"xq" = (/obj/machinery/vending/hydronutrients/generic,/obj/effect/floor_decal/corner/green/half{dir = 1; icon_state = "bordercolorhalf"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
+"xr" = (/obj/machinery/seed_storage/garden,/obj/effect/floor_decal/corner/green/half{dir = 1; icon_state = "bordercolorhalf"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
+"xs" = (/obj/structure/table/standard,/obj/item/weapon/material/minihoe,/obj/item/weapon/material/hatchet,/obj/effect/floor_decal/corner/green/half{dir = 1; icon_state = "bordercolorhalf"},/obj/machinery/light/spot{dir = 1},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
+"xt" = (/obj/structure/reagent_dispensers/watertank,/obj/item/weapon/reagent_containers/glass/bucket,/obj/effect/floor_decal/corner/green/half{dir = 1; icon_state = "bordercolorhalf"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
+"xu" = (/obj/structure/closet/crate/hydroponics/beekeeping,/obj/effect/floor_decal/corner/green/half{dir = 1; icon_state = "bordercolorhalf"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
+"xv" = (/obj/effect/floor_decal/corner/green/half{dir = 1; icon_state = "bordercolorhalf"},/obj/machinery/beehive,/turf/simulated/floor/tiled/dark/monotile,/area/casino)
+"xw" = (/obj/effect/floor_decal/corner/green/half{dir = 1; icon_state = "bordercolorhalf"},/obj/machinery/atmospherics/unary/vent_scrubber/on,/obj/machinery/alarm{dir = 8; icon_state = "alarm0"; pixel_x = 24},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
+"xx" = (/obj/machinery/door/firedoor,/obj/machinery/door/airlock/highsecurity{name = "Telecommunications"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/disposalpipe/segment,/turf/simulated/floor/tiled/steel_ridged,/area/casino)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabagaiaiaiaigOiVoMgOaiaiaiaiaiaiaiaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -1119,29 +1274,29 @@ abababababababababababababababababiRbgiZaiaiaiacacacacacacacacacacacacacacacacac
 abababababababababababababababababiRbgbgaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaFaiacaTjwjYakakakakakakjYjxaTaTaTaTaTaTaTacadgjgkbEfCbEbbheglgmhfgogpadtXaGardrhgdwdRhharejazdDabababababababababababababababababababababaaaaaaaa
 ababababababababababababababababababiTbgbgbgaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaIaiacaijyjqsHsHsHsHsHsHakakakacacacacacacacadadhihjhkgqtYtZhngqaoadadadtXadaSaIaIhoaIaSaEdaazdDabababababababababababababababababababababaaaaaaaa
 abababababababababababababababababababiQiTbgbgbgbgbguubgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgaibraiaijzjAjAjAjBjAjAjAjCaiaiaiaiacacacacacadgsgtadgugvuagwgxdyadhmubucadecadaohpcGhqcycGaEdDabababababababababababababababababababababaaaaaaaa
-abababababababababababababababababababababiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiTbgbgbgaiaiaijljljlaijljljlaiaiaiaiaiaiaiacacacadadadadadaduaadadadadtXaiaiaihraddxhscGhtdUcGaEdDabababababababababababababababababababababaaaaaaaa
-abababababababababababababababababababababababababababababababababababababababababababababababiQiTbgbgbgbgbgbgbgbgbgbgbgbgbgaiaiaiaiaiaiaiacacacacacacacudububububucaidydydyaidxdxcGhuhucGhvjaiLababababababababababababababababababababaaaaaaaa
-abababababababababababababababababababababababababababababababababababababababababababababababababiQiQiQiQiQiQiQiQiQiQiQiTbgbgbgaiaiaiaiaiaiacacaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaicGjbagjbhwbgbgiNabababababababababababababababababababaaaaaaaa
-abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababiQiTbgbgusaiaiaiaiacacaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaibgiSiSiSbgbgiUababababababababababababababababababababaaaaaaaa
-ababababababababababababababababababababababababababababababababababababababababababaiaiaiaiaiaiaijDjDjDjDjDjEjDjDjDjDjDaiababutbgiUababaiaiacacaiaiabababiRbgbgbgbgbgbgbgbgbgbgbgbgiNababiQiQabababababababababababababababababababababaaaaaaaa
-abababababababababababababababababababababababababbUbVbWbXbYababababababababababababaiaiaiaiaiaiaijFjGjHjIjHjJjHjIjHjIjKaiababiRbgiNabaiaiaiacacaiaiaiababiRbgiUiQiQiQiQiQiQiQiQiQiQababababababababababababababababababababababababababaaaaaaaa
-abababababababababababababababababababababababababckclcmcncoababababababababababababjLjMjNjOjPjQjRjSjTjUjVjWjXjHakjHjYjZaTabababbgaiaiaiacacacacacacaiaiaiiRbgiNababababababababababababababababababababababababababababababababababababaaaaaaaa
-abababababababababababababababababababababababababckcBcCcDcoababababababababababababkaakakakkbaTkckdkejHakjHakjHakjHkfkgaTabababaiaiacacacacacacacacacacaiaibgiNababababababababababababababababababababababababababababababababababababaaaaaaaa
-abababababababababababababababababababababababababckcKcLcMcoababababababababababababkhkikjkkklkmknkokpkpkpkpkpkpkpkpkqkrksabababaiacacacacacacacacacacacacaibgiNababababababababababababababababababababababababababababababababababababaaaaaaaa
-abababababababababababababababababababababababababcScTcUcVcWababababababababababababktktaTkukvaTkwkxkykzkAkBkCkDkEkFkGkHaTabababaiaiacacacacacacacacacacaiaibgiNababababababababababababababababababababababababababababababababababababaaaaaaaa
-ababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababbgaiaiaiacacacacacacaiaiaibgbgiNababababababababababababababababababababababababababababababababababababaaaaaaaa
-abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababiRbgbgbgaiaiaiaiaiaiaiaibgbgbgiUabababababababababababababababababababababababababababababababababababababaaaaaaaa
-ababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababiQiTbgbgbgbgbgbgbgbgbgbgiUiQababababababababababababababababababababababababababababababababababababababaaaaaaaa
-ababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababiQiQiQiQiQiQiQiQiQiQababababababababababababababababababababababababababababababababababababababababaaaaaaaa
-ababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaaaaaaaa
-ababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaaaaaaaa
-ababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaaaaaaaa
-ababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaaaaaaaa
-ababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaaaaaaaa
-ababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaaaaaaaa
-ababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaaaaaaaa
-ababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaaaaaaaa
-ababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaaaaaaaa
+abababababababababababababababababababababiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiQiTbgbgbgaiaiaijljljlaijljljlaiaiaiaiaiaiaiacacuzadadadadadaduaadadadadtXaiaiaihraddxhscGhtdUcGaEdDabababababababababababababababababababababaaaaaaaa
+abababababababababababababababababababababababababababababababababababababababababababababababiQiTbgbgbgbgbgbgbgbgbgbgbgbgbgaiaiaiaiaiaiaiuAuBacacacacacudububububucaidydydyaidxdxcGhuhucGhvjaiLababababababababababababababababababababaaaaaaaa
+abababababababababababababababababababababababababababababababababababababababababababababababababiQiQiQiQiQiQiQiQiQiQiQiTbgbgbgaiaiaiaiaiaiuCavaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaicGjbagjbhwbgbgiNabababababababababababababababababababaaaaaaaa
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababiQiTbgbgusaiaiaiuDuEqlqlqluFqluGaiaiaiaiaiaiaiaiaiaiaiaibgiSiSiSbgbgiUababababababababababababababababababababaaaaaaaa
+ababababababababababababababababababababababababababababababababababababababababababaiaiaiaiaiaiaijDjDjDjDjDjEjDjDjDjDjDaiababutbgiUabaiaiuHuIanuJuKuLuMuIaibgbgbgbgbgbgbgbgbgbgbgbgiNababiQiQabababababababababababababababababababababaaaaaaaa
+abababababababababababababababababababababababababbUbVbWbXbYababababababababababababaiaiaiaiaiaiaijFjGjHjIjHjJjHjIjHjIjKaiababiRbgiNabaiaiuNuOuPuQuQuRuSuIaibguTiQiQiQiQiQiQiQiQiQiQababababababababababababababababababababababababababaaaaaaaa
+abababababababababababababababababababababababababckclcmcncoababababababababababababjLjMjNjOjPjQjRjSjTjUjVjWjXjHakjHjYjZaTababiMbgiNaiaiaiuUuVuWuXaiaiuYuVaibgiNababababababababababababababababababababababababababababababababababababaaaaaaaa
+abababababababababababababababababababababababababckcBcCcDcoababababababababababababkaakakakkbaTkckdkejHakjHakjHakjHkfkgaTabiRbgbgaiaiaiuZvavbvcvduZaiaiaiaibgiNababababababababababababababababababababababababababababababababababababaaaaaaaa
+abababababababababababababababababababababababababckcKcLcMcoababababababababababababkhkikjkkklkmknkokpkpkpkpkpkpkpkpkqkrksabiRbgaiaiuZvdvevevevevevevduZaiaibgiNabaiaiaiaiaiaiaiaiaiaiaiaiabababababababababababababababababababababababaaaaaaaa
+abababababababababababababababababababababababababcScTcUcVcWababababababababababababktktaTkukvaTkwkxkykzkAkBkCkDkEkFkGkHaTabiRbgaivfavvgvevhvivjvkvevlavvmaibgiNabaiaiaiaivnvoaTvpvqvrvsadabababababababababababababababababababababababaaaaaaaa
+ababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababiRbgaiaivtvuavavavavavavvvvwaiaibgiNabaiaianvxvyvzaTvAvBvCvDadabababababababababababababababababababababababaaaaaaaa
+ababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababiRbgbgaiaiaivEvFvGvHvIvJaiaiaibgbgiNabaiaivKvLvMuWaTvNakvCvOadabababababababababababababababababababababababaaaaaaaa
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababiTbgbgbgaiaiaiaiaiaiaiaibgbgbgiUababaivPvQvQvQvRaTvSvTvUvVadabababababababababababababababababababababababaaaaaaaa
+ababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababiQiTbgbgbgbgbgbgbgbgbgbgiUiQabababvWvXvYvZwawbaTaTaTwcaTadabababababababababababababababababababababababaaaaaaaa
+ababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababiQiQiQiQiQiQiQiQiQiQabababababanprwdvGwewfcjwgwhwiwjadabababababababababababababababababababababababaaaaaaaa
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababwkwlwmwnwnwowpwqwrwswtadabababababababababababababababababababababababaaaaaaaa
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababanwuwvwwwxwyaTwzaTwAwBadabababababababababababababababababababababababaaaaaaaa
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababwCvIwDwEwFwGwHwIwJwKwLadabababababababababababababababababababababababaaaaaaaa
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaiwMwNwOwOwPwQwRwSwTwUadabababababababababababababababababababababababaaaaaaaa
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaiadwVwWwXwYwZxaxbxcxdadabababababababababababababababababababababababaaaaaaaa
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaiadxexfxgxhxixjxkxlxmadabababababababababababababababababababababababaaaaaaaa
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababadadadadadadadadxnxoxpadabababababababababababababababababababababababaaaaaaaa
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababxqxrxsxtxuxvxwadadxxadadabababababababababababababababababababababababaaaaaaaa
 ababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
