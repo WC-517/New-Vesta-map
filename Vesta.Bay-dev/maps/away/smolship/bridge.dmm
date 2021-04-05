@@ -645,7 +645,7 @@
 "mu" = (/obj/effect/floor_decal/corner/research{dir = 4},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled,/area/casino)
 "mv" = (/obj/machinery/porta_turret{dir = 8},/turf/simulated/floor/plating,/area/casino)
 "mw" = (/obj/machinery/door/blast/regular{dir = 2; id_tag = "smol-ai-core-access"; name = "Internal Chamber Lockdown"},/turf/simulated/floor/tiled/techmaint,/area/casino)
-"mx" = (/obj/effect/landmark/start{name = "AI"},/obj/machinery/requests_console{department = "AI"; departmentType = 5; pixel_x = -32; pixel_y = -32},/obj/machinery/newscaster/security_unit{pixel_x = 32; pixel_y = -32},/obj/machinery/flasher{pixel_x = 24; pixel_y = 38},/obj/machinery/turretid/stun{check_synth = 1; name = "AI Chamber turret control"; pixel_x = -32; pixel_y = 32},/obj/item/device/radio/intercom/locked/ai_private{dir = 1; pixel_y = -22},/obj/item/device/radio/intercom/custom{dir = 4; pixel_x = -22; pixel_y = 0},/obj/item/device/radio/intercom{dir = 8; pixel_x = 22},/obj/structure/cable/cyan{d2 = 8; icon_state = "0-8"},/obj/machinery/camera/all/command{c_tag = "AI Core"; dir = 8},/turf/simulated/floor/greengrid,/area/casino)
+"mx" = (/obj/machinery/power/terminal{dir = 1; icon_state = "term"},/obj/structure/cable{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/tiled/dark,/area/casino)
 "my" = (/obj/structure/closet/secure_closet/guncabinet/PPE{req_access = list(list("ACCESS_BRIDGE","ACCESS_ARMORY","ACCESS_TORCH_ARMORY","ACCESS_HEAD_OF_SECURITY","ACCESS_HEAD_OF_PERSONNEL","ACCESS_CHIEF_ENGINEER","ACCESS_CHIEF_MEDICAL_OFFICER","ACCESS_RESEARCH_DIRECTOR","ACCESS_TORCH_SENIOR_ADVISOR"))},/turf/simulated/floor/tiled/dark,/area/casino)
 "mz" = (/obj/machinery/computer/rcon{dir = 4},/obj/structure/window/reinforced{dir = 8; health = 1e+006},/turf/simulated/floor/tiled/dark,/area/casino)
 "mA" = (/obj/structure/bed/chair/office/comfy/black,/turf/simulated/floor/tiled/dark,/area/casino)
@@ -663,12 +663,12 @@
 "mM" = (/obj/machinery/door/airlock/glass/command,/obj/machinery/door/blast/regular{dir = 4; id_tag = "smol-ai-chamber"; name = "Internal Chamber Lockdown"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
 "mN" = (/obj/effect/floor_decal/corner/blue{dir = 9},/obj/effect/floor_decal/corner/blue{dir = 6},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
 "mO" = (/obj/effect/floor_decal/corner/blue{dir = 5},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
-"mP" = (/obj/machinery/door/blast/regular{dir = 4; id_tag = "smol-ai-core-access"; name = "Internal Chamber Lockdown"},/turf/simulated/floor/bluegrid,/area/casino)
+"mP" = (/obj/structure/bed/padded,/obj/item/weapon/bedsheet/hop,/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/carpet/blue,/area/casino)
 "mQ" = (/obj/structure/table/steel_reinforced,/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/tiled/dark,/area/casino)
 "mR" = (/obj/structure/bed/chair/office/comfy/black{dir = 4; icon_state = "comfyofficechair_preview"},/turf/simulated/floor/tiled/dark,/area/casino)
 "mS" = (/obj/structure/table/woodentable/walnut,/obj/item/weapon/storage/secure/briefcase/nukedisk,/turf/simulated/floor/wood/walnut,/area/casino)
 "mT" = (/obj/machinery/computer/modular/preset/security{dir = 1; icon_state = "console"},/obj/structure/window/reinforced{health = 1e+007},/turf/simulated/floor/tiled/dark,/area/casino)
-"mU" = (/obj/effect/wallframe_spawn/reinforced_phoron/titanium,/obj/machinery/door/blast/regular{dir = 4; id_tag = "smol-ai-chamber"; name = "Internal Chamber Lockdown"},/turf/simulated/floor/plating,/area/casino)
+"mU" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/simulated/floor/tiled/dark,/area/casino)
 "mV" = (/obj/effect/wallframe_spawn/reinforced/titanium,/obj/machinery/door/blast/regular{dir = 2; id_tag = "smol-ai-chamber-ac"; name = "Internal Chamber Lockdown"},/turf/simulated/floor/plating,/area/casino)
 "mW" = (/obj/machinery/computer/modular/preset/civilian{dir = 1; icon_state = "console"},/obj/structure/window/reinforced,/turf/simulated/floor/tiled/dark,/area/casino)
 "mX" = (/obj/structure/table/steel_reinforced,/obj/structure/window/reinforced{dir = 4},/obj/structure/window/reinforced,/obj/machinery/photocopier/faxmachine{department = "AI Core"},/turf/simulated/floor/tiled/dark,/area/casino)
@@ -682,8 +682,8 @@
 "nf" = (/obj/machinery/computer/modular/preset/security{dir = 8},/turf/simulated/floor/tiled/dark,/area/casino)
 "ng" = (/obj/effect/wallframe_spawn/reinforced/hull,/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/obj/machinery/door/blast/regular{dir = 2; icon_state = "pdoor0"; id_tag = "smol-bridge"; name = "Blast Door"},/turf/simulated/floor/plating,/area/casino)
 "nh" = (/obj/structure/cable{d2 = 4; icon_state = "0-4"},/turf/simulated/open,/area/casino)
-"ni" = (/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/plating,/area/casino)
-"nj" = (/obj/effect/wallframe_spawn/reinforced_phoron/titanium,/obj/machinery/door/blast/regular{dir = 2; id_tag = "smol-ai-chamber-obs"; name = "Internal Chamber Lockdown"},/turf/simulated/floor/plating,/area/casino)
+"ni" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/simulated/floor/tiled/dark,/area/casino)
+"nj" = (/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/simulated/floor/tiled/dark,/area/casino)
 "nk" = (/obj/machinery/door/blast/regular{dir = 4; id_tag = "smol-ai-upload-entrance"; name = "AI Upload Access"},/turf/simulated/floor/tiled/dark,/area/casino)
 "nl" = (/obj/machinery/door/blast/regular{dir = 4; id_tag = "smol-ai-entrance"; name = "AI Chamber Access"},/turf/simulated/floor/tiled/dark,/area/casino)
 "nm" = (/obj/effect/wallframe_spawn/reinforced/titanium,/obj/machinery/door/blast/regular{dir = 2; id_tag = "smol-ai-control"; name = "Internal Chamber Lockdown"},/turf/simulated/floor/plating,/area/casino)
@@ -734,7 +734,7 @@
 "of" = (/obj/machinery/computer/modular/preset/cardslot/command,/obj/effect/floor_decal/spline/fancy/wood{dir = 9},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/carpet,/area/casino)
 "og" = (/obj/effect/floor_decal/spline/fancy/wood/corner{dir = 4},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/carpet,/area/casino)
 "oh" = (/obj/structure/table/woodentable/walnut,/obj/item/toy/torchmodel,/turf/simulated/floor/wood/walnut,/area/casino)
-"oi" = (/obj/structure/bed/padded,/obj/item/weapon/bedsheet/hop,/turf/simulated/floor/carpet/blue,/area/casino)
+"oi" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/simulated/wall/r_wall/prepainted,/area/casino)
 "oj" = (/obj/structure/railing/mapped{dir = 8; icon_state = "railing0-1"},/obj/structure/railing/mapped{dir = 1; icon_state = "railing0-1"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
 "ok" = (/obj/effect/floor_decal/spline/fancy/wood/corner{dir = 1},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/carpet,/area/casino)
 "ol" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 5},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/carpet,/area/casino)
@@ -742,7 +742,7 @@
 "on" = (/obj/effect/floor_decal/corner/research,/obj/structure/bed/chair/padded/yellow{dir = 1; icon_state = "chair_preview"},/turf/simulated/floor/tiled,/area/casino)
 "oo" = (/obj/structure/table/steel_reinforced,/obj/machinery/computer/account_database{dir = 1},/obj/effect/floor_decal/spline/fancy/wood/corner{dir = 8},/turf/simulated/floor/carpet,/area/casino)
 "op" = (/obj/structure/table/woodentable_reinforced/walnut,/obj/item/device/taperecorder{pixel_x = -4; pixel_y = 2},/obj/item/device/camera{pixel_x = 3; pixel_y = -4},/turf/simulated/floor/carpet,/area/casino)
-"oq" = (/obj/machinery/power/terminal{dir = 1; icon_state = "term"},/turf/simulated/floor/tiled/dark,/area/casino)
+"oq" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/simulated/floor/bluegrid,/area/casino)
 "or" = (/obj/machinery/papershredder,/obj/effect/floor_decal/corner/research/three_quarters{dir = 8},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/monotile,/area/casino)
 "os" = (/obj/effect/floor_decal/spline/fancy/wood/corner,/turf/simulated/floor/carpet,/area/casino)
 "ot" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 6},/turf/simulated/floor/carpet,/area/casino)
@@ -1024,7 +1024,7 @@
 "tJ" = (/obj/structure/cable/green{d2 = 4; icon_state = "0-4"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "CL-win"},/turf/simulated/floor/plating,/area/casino)
 "tK" = (/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "CL-win"},/turf/simulated/floor/plating,/area/casino)
 "tL" = (/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "XO-win"},/turf/simulated/floor/plating,/area/casino)
-"tM" = (/obj/machinery/power/terminal{dir = 4},/turf/simulated/floor/bluegrid,/area/casino)
+"tM" = (/obj/machinery/door/blast/regular{dir = 4; id_tag = "smol-ai-core-access"; name = "Internal Chamber Lockdown"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/simulated/floor/bluegrid,/area/casino)
 "tN" = (/obj/effect/floor_decal/corner/research/three_quarters,/obj/vehicle/bike/gyroscooter,/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/monotile,/area/casino)
 "tO" = (/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "XO-win"},/turf/simulated/floor/plating,/area/casino)
 "tP" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/item/weapon/stamp/rd,/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled,/area/casino)
@@ -1039,7 +1039,7 @@
 "tY" = (/obj/structure/flora/pottedplant/large,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/carpet,/area/casino)
 "tZ" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 10; icon_state = "spline_fancy"},/obj/structure/coatrack,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/carpet,/area/casino)
 "ua" = (/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/wallframe_spawn/reinforced/polarized{id = "CSO-win"},/turf/simulated/floor/plating,/area/casino)
-"ub" = (/obj/machinery/porta_turret{dir = 8},/obj/effect/floor_decal/industrial/outline/grey,/turf/simulated/floor/tiled/monotile,/area/casino)
+"ub" = (/obj/machinery/power/terminal{dir = 4},/obj/structure/cable{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/bluegrid,/area/casino)
 "uc" = (/obj/effect/floor_decal/corner/blue{dir = 10},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/dark,/area/casino)
 "ud" = (/obj/effect/floor_decal/corner/blue{dir = 10},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
 "ue" = (/obj/effect/floor_decal/corner/blue{dir = 5},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dark,/area/casino)
@@ -1058,7 +1058,7 @@
 "ur" = (/obj/effect/floor_decal/corner/blue{dir = 5},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/dark,/area/casino)
 "us" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dark,/area/casino)
 "ut" = (/obj/effect/wallframe_spawn/reinforced/hull,/obj/structure/cable/green,/obj/machinery/door/blast/regular{dir = 4; icon_state = "pdoor0"; id_tag = "smol-bridge"; name = "Blast Door"},/turf/simulated/floor/plating,/area/casino)
-"uu" = (/obj/machinery/power/terminal,/turf/simulated/floor/tiled/dark/monotile,/area/casino)
+"uu" = (/obj/machinery/power/smes/buildable{charge = 5e+006; input_attempt = 1; input_level = 125000; output_attempt = 1; output_level = 100000},/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/casino)
 "uv" = (/obj/machinery/power/smes/buildable{charge = 5e+006; input_attempt = 1; input_level = 125000; output_attempt = 1; output_level = 100000},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
 "uw" = (/obj/machinery/computer/modular/preset/engineering{dir = 4},/obj/structure/window/reinforced{dir = 8; health = 1e+006},/obj/effect/floor_decal/corner/blue{dir = 10},/obj/machinery/button/blast_door{id_tag = "smol-bridge"; name = "Bridge Blast Doors"; pixel_x = 0; pixel_y = -35},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
 "ux" = (/obj/effect/floor_decal/spline/fancy/black/corner,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/floor_decal/spline/fancy/black/corner{dir = 1},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
@@ -1108,6 +1108,35 @@
 "vp" = (/obj/structure/bed/chair/office/comfy,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/button/windowtint{id = "CE-win"; pixel_x = -36; pixel_y = 26},/turf/simulated/floor/tiled,/area/casino)
 "vq" = (/obj/structure/bed/chair/office/comfy,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/button/windowtint{id = "CMO-win"; pixel_x = 36; pixel_y = 26},/turf/simulated/floor/tiled/white,/area/casino)
 "vr" = (/obj/structure/bed/chair/office/comfy,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/button/windowtint{id = "CO-win"; pixel_x = 36; pixel_y = 26},/turf/simulated/floor/carpet/blue,/area/casino)
+"vs" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/wood/walnut,/area/casino)
+"vt" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/simulated/floor/wood/walnut,/area/casino)
+"vu" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 8},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/simulated/floor/carpet/blue,/area/casino)
+"vv" = (/obj/structure/undies_wardrobe,/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/carpet/blue,/area/casino)
+"vw" = (/obj/structure/cable/cyan{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/bluegrid,/area/casino)
+"vx" = (/obj/structure/cable/cyan{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/wall/r_wall/prepainted,/area/casino)
+"vy" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/wall/r_wall/prepainted,/area/casino)
+"vz" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/simulated/wall/walnut,/area/casino)
+"vA" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/wall/walnut,/area/casino)
+"vB" = (/obj/effect/wallframe_spawn/reinforced_phoron/titanium,/obj/machinery/door/blast/regular{dir = 4; id_tag = "smol-ai-chamber"; name = "Internal Chamber Lockdown"},/obj/structure/cable/cyan{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/plating,/area/casino)
+"vC" = (/obj/structure/cable/cyan{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/bluegrid,/area/casino)
+"vD" = (/obj/effect/landmark/start{name = "AI"},/obj/machinery/requests_console{department = "AI"; departmentType = 5; pixel_x = -32; pixel_y = -32},/obj/machinery/newscaster/security_unit{pixel_x = 32; pixel_y = -32},/obj/machinery/flasher{pixel_x = 24; pixel_y = 38},/obj/machinery/turretid/stun{check_synth = 1; name = "AI Chamber turret control"; pixel_x = -32; pixel_y = 32},/obj/item/device/radio/intercom/locked/ai_private{dir = 1; pixel_y = -22},/obj/item/device/radio/intercom/custom{dir = 4; pixel_x = -22; pixel_y = 0},/obj/item/device/radio/intercom{dir = 8; pixel_x = 22},/obj/machinery/camera/all/command{c_tag = "AI Core"; dir = 8},/obj/structure/cable/cyan{icon_state = "0-4"},/turf/simulated/floor/greengrid,/area/casino)
+"vE" = (/obj/structure/cable/cyan{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/cyan{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/bluegrid,/area/casino)
+"vF" = (/obj/effect/wallframe_spawn/reinforced_phoron/titanium,/obj/machinery/door/blast/regular{dir = 4; id_tag = "smol-ai-chamber"; name = "Internal Chamber Lockdown"},/obj/structure/cable/cyan{icon_state = "0-8"},/turf/simulated/floor/plating,/area/casino)
+"vG" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/casino)
+"vH" = (/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/bluegrid,/area/casino)
+"vI" = (/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/casino)
+"vJ" = (/obj/machinery/porta_turret{dir = 8},/obj/effect/floor_decal/industrial/outline/grey,/obj/structure/cable/cyan{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/monotile,/area/casino)
+"vK" = (/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/cyan{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/monotile,/area/casino)
+"vL" = (/obj/machinery/porta_turret{dir = 8},/obj/effect/floor_decal/industrial/outline/grey,/obj/structure/cable/cyan{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/monotile,/area/casino)
+"vM" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
+"vN" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
+"vO" = (/obj/effect/wallframe_spawn/reinforced_phoron/titanium,/obj/machinery/door/blast/regular{dir = 2; id_tag = "smol-ai-chamber-obs"; name = "Internal Chamber Lockdown"},/obj/structure/cable/cyan,/turf/simulated/floor/plating,/area/casino)
+"vP" = (/obj/machinery/door/airlock/glass/command,/obj/machinery/door/blast/regular{dir = 2; id_tag = "smol-ai-chamber-ac"; name = "Internal Chamber Lockdown"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dark/monotile,/area/casino)
+"vQ" = (/obj/machinery/power/breakerbox/activated,/turf/simulated/floor/plating,/area/casino)
+"vR" = (/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/dark,/area/casino)
+"vS" = (/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled/dark,/area/casino)
+"vT" = (/obj/structure/bed/chair/office/comfy/black{dir = 4; icon_state = "comfyofficechair_preview"},/obj/machinery/door/window/brigdoor/westleft,/turf/simulated/floor/tiled/dark,/area/casino)
+"vU" = (/obj/machinery/power/terminal,/obj/structure/cable,/turf/simulated/floor/tiled/dark/monotile,/area/casino)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaEaEaEaEaEaGaJadayaaaaaaaaaEaEaEaEaEaEaEaEaEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -1139,27 +1168,27 @@ abababababababababalababababababjgjgjgjxjgjgjgjgjgjgjgjgjgjgjgjgjxjgjgirjgjgjgir
 abababababababababalabababababjyjAjAjAkdsTjAjAjAjAjAjAjAjAjAjAjAkdjAjAjzjAjAjAjzjAjAjAjzjAjAkdjAjAjAaeaeaeaeaeaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaeaeaeaeaeaejAkfababababababababababababababababababababababababababababababababababaaaa
 abababababababababalababababsHjAjAaeaealaeaeaeaeaefuaeaeaeaeaeaealalaCesesaCsIsIsIaCesesaCsIsIsIaCesesaCalalaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCjDmsjfaCaCfkaeaeaeaejAkfababababababababababababababababababababababababababababababababababaaaa
 abababababababababalababababsHjAaeaeaealaeaeaeaeaeaeaeaeaeaeaeaeaefAgignetgpgvaefAgigAgBgpgvfkfAgigEgFgpgvaeaCaCeDeDeDeDeDeDeDeDeDaEaCaCsUalaCaCasasasaCaCaCaeaeaeaesTkfabababaeaCaCaCaCaCaCaChjaCaCaCaCaCaCaCaeaeaeaeaeaeaeaeaeababababababaaaa
-abababababababababalababababsHjAfuaeaealaeaeaeaeaeaeaeaeaeaeaeaeaCfAgVgXmumIgvaCfAnUnWodbRgvaCfAofogokolgvaCaCeDgkejejnYnvnZgZoaeDaEaCaCoqalaCaEaEmwaEaEaCaCaCaeaeaejAkfabababhlhmhnhnhnhnhnhnhnhnhnhnhnhnhnhnhohkaeaeaeaeaeaeaeababababababaaaa
-abababababababababalababababsHjAaeaeaealaeaeaeaeaeaeaeaeaeaeaeaefAorowgugmgYgraCobaQgotqaQocaCoenVgstqnXgSaEeDmHeXohejejejejgZoialalalalalalaEibmPibmPtMsUaCaCaCaeaejAkfabababhqhraEaEaEaEaEaEaEaEaEaEaEaEaEaChphsaeaeaeaeaeaeaeaeaeaeaeaeaeaaaa
-acadabababababababalababababsHjAaeaeaealaeaeaeaeaeaeaeaeaeaeaeaefAtNnygMtPnzgxaEomgHnttQaQopaEnBoonDtRosotejejejejejejejejejgZeHeDaEaCaCalalaEibaCmvaCibaEaEaCaCaCaejAkfabababhtaEaEhuhvhwaEhxhyhzaiaiaiaiaEaEaChphoaeaeaeaeaeaeaeaeaeaeaeaeaaaa
-aeafabababababalalalalalalalsJkdalalalalalalaeaeaeaeaeaeaeaeaefkaCaCgytSongzgUaEhgoutTtUaQhgaEhhovtVtWotaEaEeDeDeDgqeDeDeDeDeDeDeDaEaCaCaEammUibaCmxaCibmUamaCaCaCaCjAkfabababhraEhwhAhBhCaEhDhEhFhGapapaiaiaEaCaChphoaeaeaeaeaeaeaeaeaeaeaeaaaa
-agahaiajabababalababababababsHjAaeaeaeaeaealaeaeaeaeaeaeaeaeaeaCaCaCaCtXgzoLpkoypupwtYaQtJtKoGtLtOtZotaEaEadaEaEgqgqgqaEaEaEaEaEaEaEaEaEiqalmMibaCaCaCibmMaliqaCaCaCjAkfabababaEaEhHhIhJhKhLhKhMhNaEhOhOaEhPaEaCaCaChtaeaeaeaeaeaeaeaeaeaeaeaaaa
-akalamanabababalababababababsHjAaeaeaeaeaealalalalalalalaCmZngaCgIgJaEuaamaEnbamnbaEuYamaEnbamnbaEuZamaEnhniaEgGgqgqgqgCaEaEaEaEaEaEaEamalamaEubaiaiaiubaEamalamaCaCjAkfabababaEhQhRhShThUaEaEaEhVaEhWhXhYamhwaEaCaChtaCaCaCaChjaCaCaCaCaChkaaaa
-abaoabababababalababababababsHjAaeaeaeaeaealaefkaCoCoHngaCnCoBpaamamaEozoAoFoOucoOoFoOoFoFoOoRudoFoWamaEaEswaEaEgqgqgDaEaEhZiaidicjwaEamamamaEaEnjnjnjaEaEamamamaCaCjAkfabababaEaEieifieaEaEigihiiaEcDijikilimaEaCaCinioioioioioioioioioiphraaaa
-abapabababababalababababababsHjAaeaeaeaeaealoCsEaCgTpbhbhdpdoIoIoEoEgPpfoIoKoKueoKoKoKoKoKoKoKueoKrtamaFsVswaEaEaEaEaEaEaEmkibibibiqaEmVtfmVaEmymzmAmBalaEmVtfmVaCaCjAkfabababisitiuiviwixaEiyiziAaEiBiCiDiEaEaEaCaCiFiGiHiIiJiKiLiMiNiOinaCaaaa
-abaqarababababalababababababsHjAaeaeaeaeaeaCtjsvmCoNtsoPmNrroSoToKoKmOsxalalaEufuguguguguhaEuiujaErtamsKsLswamaEaEaEalalmlalibmmibibaEalalalaEmDmEmFmGalaEalalalaCaCjAkfabababiPiQiQiQiRiSaEiTiUhwiViWaliXiYaEaEioioioiZioiojajbasjcjdjeinaCaaaa
-abasabababababalababababababsHjzaeaeaeaeaetvmYtxalaltBoVmOteoXoYalsuaEnbalamuoaFaFaFaFaFaFeualaluiukamamamswalamnkmnalalaEmoibibibiqaEalalalalalalalalalalalalalaCaCjAkfabababjhioioiojijjjkjliUjmiVjnaljojpaEaEjqiojrjsioioioioioioiojtinaCaaaa
-atauavawabababalababababababsMjzfkaeaeaeaetHtgthpZtitItktltmtntopZtpultrpZuLuMaFaFaFaFaFaFeualalalrtalalalusalamaEaEaEaEaEhZjuibjvmpaEmVtfmVaEummJdUmLumaEmVtfmVaCaCjAkfabababjBjCaaiojEjFjGjHjIjJjKjLjMjNjOjPjQjRjSjTjUjViojWjXjYjZkakbkchjaaaa
-abaxabababababalababababababsHjzaeaeaeaeaeutnerIalaltBpegPttpgoYalsyaEnbalamuNaFaFaFaFaFaFeualaluiukamamamswalamnlmqmralaEaEaEaEaEaEaEiqamamaEaEnmnmnmaEaEamamiqaCaCjAkfabababkgioioiokhjjjkkiiUkjiVkkalklkmaEaEjqioknkoioiokpkqkrksktkuinaCaaaa
-abayabababababalababababababsHjAaeaeaeaeaeaCtjtuuwpjuxoPnrrIoXoDoEoEgPtwalalaEunuguguguguhaEamuoaErtamsNlBswamaEaEaEalalnoamamamamamnnamalalamamnsnwnxamamalalamaCaCsTkfabababkvkwkwkwkxiSaEkyiUhwiVkzaliXiYaEaEioioiokAioiokBkCkDkEkFkGinaCaaaa
-azaAabababababalababababababsHjAaeaeaeaeaealoCuyaCnAtyojoxtzpopooKoKmOtAoIoEoEupoEoEoEoEoEoEoEuqoEukamaFsVswaEaEaEaEaEaEaEamalalalamnnamalmAmQalalmRalaleralalamaCaCjAkfabababkHjCkIivkJkKaEkLkMilaEcDaliXiEaEaEaCaCipkNkOiIiIkPkQkRkSkTkUaCaaaa
-aBaCabababababalababababababsHjAaeaeaeaeaealaefkaCoCuzngaCtCpruAoJoMaEtDtEtFtGurtGtFtGtFtFtGrdtGtFuBuCaEaEswaEaEgqgqgDaEaEamamamamamnnamalmTnpalnqmWmXalevalnaoQaCaCjAkfabababaEaEkVifkVaEaEkWkXkYaEcDkZlailimaEaCaCinioioioioioioioioioiFhoaaaa
-aDaEabababababalababababababsHjAaeaeaeaeaealalalalalalalaCuDngaCoUoZaEamvaaEnbamnbaEvbamaEnbamnbaEvcuFaEaduGaEgGgqgqgqgCaEaEaEaEaEaEaEamalalalalalalalalalalmRpcaCaCjAkfabababaElbhRhSlcldaEaEaEhVaElelflgamhwaEaCaChtaCaCaCaChjaCaCaCaCaClhaaaa
-abaFabababababalababababababsHjAaeaeaeaeaealaeaeaeaeaeaeaeaeaeaCaCaCaCphgtvdveoGvfvggKpmvhvioyvjvkgNuHuIuJuKaEaEgqgqgqaEaEaEaEaEaEaEaEaEpnncalalalalalalalalndppaCaCjAkfabababaEaElihIljhKhLhKlkllaElmlmaEhPaEaCaCaChtaeaeaeaeaeaeaeaeaeaeaeaaaa
-abababababababalalalalalalalsJkdalalalalalalaeaeaeaeaeaeaeaeaefkaCaCphglgRpqvlaEvmpsgWgLpmvmaEvnnFhinHnEaEaEeDeDeDgqeDeDeDeDeDeDeDaEaCaCaEptalaTalalalaTalalalamaCaCjAkfabababaCaEhwlnhFhCaElolphBlqapapaiaiaEaCaChlhraeaeaeaeaeaeaeaeaeaeaeaaaa
-abababababababababalababababsHjAaeaeaealaeaeaeaeaeaeaeaeaeaeaeaenGnKglpvnNgOsqaEsrgQnQvogLssaEnInJnRpxnHnEejejejejejejejejejgZhaeDaEaCaCaEiqaleBalmAalnfalaliqaCaCaCjAkfabababaCaEaElrlshwaEltlulvaiaiaiaiaEaEaChlhraeaeaeaeaeaeaeaeaeaeaeaeaaaa
-abababababababababalababababsHjAaeaeaealaeaeaeaeaeaeaeaeaeaeaeaenSnTpiguvpgwstaCszhcvqhehfsAaCnLnMvrmtnOnPaEeDmHmKmSejejejejgZeGalalalalalamalalsBsCsDamamamaCaCaCaejAkfabababhoaCaEaEaEaEaEaEaEaEaEaEaEaEaEaChlhsaeaeaeaeaeaeaeaeaeaeaeaeaeaaaa
-abababababababababalababababsHjAfuaeaealaeaeaeaeaeaeaeaeaeaeaeaeaCnSpyspsFsWsXaCnSsYsZtatbsXaCnStctduEuOsXaCaCeDsGejejnunvfcgZeHeDaEaCaCaCaCuuamaEaEaEaEaEaCaCaCaeaejAkfabababhphnhnhnhnhnhnhnhnhnhnhnhnhnhnhnhrlhaeaeaeaeaeaeaeababababababaaaa
+abababababababababalababababsHjAfuaeaealaeaeaeaeaeaeaeaeaeaeaeaeaCfAgVgXmumIgvaCfAnUnWodbRgvaCfAofogokolgvaCaCeDgkejejnYnvnZgZoaeDaEaCaCmxalaCaEaEmwaEaEaCaCaCaeaeaejAkfabababhlhmhnhnhnhnhnhnhnhnhnhnhnhnhnhnhohkaeaeaeaeaeaeaeababababababaaaa
+abababababababababalababababsHjAaeaeaealaeaeaeaeaeaeaeaeaeaeaeaefAorowgugmgYgraCobaQgotqaQocaCoenVgstqnXgSaEeDmHeXohejejejejgZmPmUmUmUmUninjoioqtMoqtMubuuaCaCaCaeaejAkfabababhqhraEaEaEaEaEaEaEaEaEaEaEaEaEaChphsaeaeaeaeaeaeaeaeaeaeaeaeaeaaaa
+acadabababababababalababababsHjAaeaeaealaeaeaeaeaeaeaeaeaeaeaeaefAtNnygMtPnzgxaEomgHnttQaQopaEnBoonDtRosotejejejvsvtvtvtvtvtvuvveDaEaCaCaEusaEibaCmvaCvwvxaEaCaCaCaejAkfabababhtaEaEhuhvhwaEhxhyhzaiaiaiaiaEaEaChphoaeaeaeaeaeaeaeaeaeaeaeaeaaaa
+aeafabababababalalalalalalalsJkdalalalalalalaeaeaeaeaeaeaeaeaefkaCaCgytSongzgUaEhgoutTtUaQhgaEhhovtVtWotaEvyvzvzvAgqeDeDeDeDeDeDeDaEaCaCaEswvBvCaCvDhnvEvFamaCaCaCaCjAkfabababhraEhwhAhBhCaEhDhEhFhGapapaiaiaEaCaChphoaeaeaeaeaeaeaeaeaeaeaeaaaa
+agahaiajabababalababababababsHjAaeaeaeaeaealaeaeaeaeaeaeaeaeaeaCaCaCaCtXgzoLpkoypupwtYaQtJtKoGtLtOtZotaEaEvGaEaEgqgqgqaEaEaEaEaEaEaEaEaEiqusmMvHaCaCaCvHmMaliqaCaCaCjAkfabababaEaEhHhIhJhKhLhKhMhNaEhOhOaEhPaEaCaCaChtaeaeaeaeaeaeaeaeaeaeaeaaaa
+akalamanabababalababababababsHjAaeaeaeaeaealalalalalalalaCmZngaCgIgJaEuaamaEnbamnbaEuYamaEnbamnbaEuZamaEnhvIaEgGgqgqgqgCaEaEaEaEaEaEaEamalswaEvJvKvKvKvLaEamalamaCaCjAkfabababaEhQhRhShThUaEaEaEhVaEhWhXhYamhwaEaCaChtaCaCaCaChjaCaCaCaCaChkaaaa
+abaoabababababalababababababsHjAaeaeaeaeaealaefkaCoCoHngaCnCoBpaamamaEozoAoFoOucoOoFoOoFoFoOoRudoFoWamaEaEswaEaEgqgqgDaEaEhZiaidicjwaEamvMvNaEaEvOvOvOaEaEamamamaCaCjAkfabababaEaEieifieaEaEigihiiaEcDijikilimaEaCaCinioioioioioioioioioiphraaaa
+abapabababababalababababababsHjAaeaeaeaeaealoCsEaCgTpbhbhdpdoIoIoEoEgPpfoIoKoKueoKoKoKoKoKoKoKueoKrtamaFsVswaEaEaEaEaEaEaEmkibibibiqaEmVvPmVaEmymzmAmBalaEmVtfmVaCaCjAkfabababisitiuiviwixaEiyiziAaEiBiCiDiEaEaEaCaCiFiGiHiIiJiKiLiMiNiOinaCaaaa
+abaqarababababalababababababsHjAaeaeaeaeaeaCtjsvmCoNtsoPmNrroSoToKoKmOsxalalaEufuguguguguhaEuiujaErtamsKsLswamaEaEaEalalmlalibmmibibaEalusalaEmDmEmFmGalaEalalalaCaCjAkfabababiPiQiQiQiRiSaEiTiUhwiViWaliXiYaEaEioioioiZioiojajbasjcjdjeinaCaaaa
+abasabababababalababababababsHjzaeaeaeaeaetvmYtxalaltBoVmOteoXoYalsuaEnbalamuoaFaFaFaFaFaFeualaluiukamamamswalamnkmnalalaEmoibibibiqaEalusalalalalalalalalalalalaCaCjAkfabababjhioioiojijjjkjliUjmiVjnaljojpaEaEjqiojrjsioioioioioioiojtinaCaaaa
+atauavawabababalababababababsMjzfkaeaeaeaetHtgthpZtitItktltmtntopZtpultrpZuLuMaFaFaFaFaFaFeualalalrtalalalusalamaEaEaEaEaEhZjuibjvmpaEmVvPmVaEummJdUmLumaEmVtfmVaCaCjAkfabababjBjCaaiojEjFjGjHjIjJjKjLjMjNjOjPjQjRjSjTjUjViojWjXjYjZkakbkchjaaaa
+abaxabababababalababababababsHjzaeaeaeaeaeutnerIalaltBpegPttpgoYalsyaEnbalamuNaFaFaFaFaFaFeualaluiukamamamswalamnlmqmralaEaEaEaEaEaEaEiqswamaEaEnmnmnmaEaEamamiqaCaCjAkfabababkgioioiokhjjjkkiiUkjiVkkalklkmaEaEjqioknkoioiokpkqkrksktkuinaCaaaa
+abayabababababalababababababsHjAaeaeaeaeaeaCtjtuuwpjuxoPnrrIoXoDoEoEgPtwalalaEunuguguguguhaEamuoaErtamsNlBswamaEaEaEalalnoamamamamamnnamusalamamnsnwnxamamalalamaCaCsTkfabababkvkwkwkwkxiSaEkyiUhwiVkzaliXiYaEaEioioiokAioiokBkCkDkEkFkGinaCaaaa
+azaAabababababalababababababsHjAaeaeaeaeaealoCuyaCnAtyojoxtzpopooKoKmOtAoIoEoEupoEoEoEoEoEoEoEuqoEukamaFsVswaEaEaEaEaEaEaEamalalalamnnamusmAmQalalmRalaleralalamaCaCjAkfabababkHjCkIivkJkKaEkLkMilaEcDaliXiEaEaEaCaCipkNkOiIiIkPkQkRkSkTkUaCaaaa
+aBaCabababababalababababababsHjAaeaeaeaeaealaefkaCoCuzngaCtCpruAoJoMaEtDtEtFtGurtGtFtGtFtFtGrdtGtFuBuCaEaEswaEaEgqgqgDaEaEamamamamamnnamusmTnpalnqmWmXalevalnaoQaCaCjAkfabababaEaEkVifkVaEaEkWkXkYaEcDkZlailimaEaCaCinioioioioioioioioioiFhoaaaa
+aDaEabababababalababababababsHjAaeaeaeaeaealalalalalalalaCuDngaCoUoZaEamvaaEnbamnbaEvbamaEnbamnbaEvcuFaEvQuGaEgGgqgqgqgCaEaEaEaEaEaEaEamvRmUvSalalalalalalalvTpcaCaCjAkfabababaElbhRhSlcldaEaEaEhVaElelflgamhwaEaCaChtaCaCaCaChjaCaCaCaCaClhaaaa
+abaFabababababalababababababsHjAaeaeaeaeaealaeaeaeaeaeaeaeaeaeaCaCaCaCphgtvdveoGvfvggKpmvhvioyvjvkgNuHuIuJuKaEaEgqgqgqaEaEaEaEaEaEaEaEaEpnncusalalalalalalalndppaCaCjAkfabababaEaElihIljhKhLhKlkllaElmlmaEhPaEaCaCaChtaeaeaeaeaeaeaeaeaeaeaeaaaa
+abababababababalalalalalalalsJkdalalalalalalaeaeaeaeaeaeaeaeaefkaCaCphglgRpqvlaEvmpsgWgLpmvmaEvnnFhinHnEaEaEeDeDeDgqeDeDeDeDeDeDeDaEaCaCaEptusaTalalalaTalalalamaCaCjAkfabababaCaEhwlnhFhCaElolphBlqapapaiaiaEaCaChlhraeaeaeaeaeaeaeaeaeaeaeaaaa
+abababababababababalababababsHjAaeaeaealaeaeaeaeaeaeaeaeaeaeaeaenGnKglpvnNgOsqaEsrgQnQvogLssaEnInJnRpxnHnEejejejejejejejejejgZhaeDaEaCaCaEiquseBalmAalnfalaliqaCaCaCjAkfabababaCaEaElrlshwaEltlulvaiaiaiaiaEaEaChlhraeaeaeaeaeaeaeaeaeaeaeaeaaaa
+abababababababababalababababsHjAaeaeaealaeaeaeaeaeaeaeaeaeaeaeaenSnTpiguvpgwstaCszhcvqhehfsAaCnLnMvrmtnOnPaEeDmHmKmSejejejejgZeGalalalalalamusalsBsCsDamamamaCaCaCaejAkfabababhoaCaEaEaEaEaEaEaEaEaEaEaEaEaEaChlhsaeaeaeaeaeaeaeaeaeaeaeaeaeaaaa
+abababababababababalababababsHjAfuaeaealaeaeaeaeaeaeaeaeaeaeaeaeaCnSpyspsFsWsXaCnSsYsZtatbsXaCnStctduEuOsXaCaCeDsGejejnunvfcgZeHeDaEaCaCaCaCvUamaEaEaEaEaEaCaCaCaeaejAkfabababhphnhnhnhnhnhnhnhnhnhnhnhnhnhnhnhrlhaeaeaeaeaeaeaeababababababaaaa
 abababababababababalababababsHjAaeaeaealaeaeaeaeaeaeaeaeaeaeaeaealnSuPuQuRuSsXaenSuPuTuUuSsXfknSuPuVuWuSsXaeaCaCeDeDeDeDeDeDeDeDeDaEaCaCaCaCuvamaCaCaCaCaCaCaCaeaeaejAkfabababaeaCaCaCaCaCaCaChjaCaCaCaCaCaCaCaeaeaeaeaeaeaeaeaeababababababaaaa
 abababababababababalababababsHjAjAaeaealaeaeaeaeaefuaeaeaeaeaeaealalaCuXuXaCjxjxjxaCuXuXaCjxjxjxaCuXuXaCalalaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCfkaeaeaeaejAkfababababababababababababababababababababababababababababababababababaaaa
 abababababababababalabababababsOjAjAjAkdsTjAjAjAjAjAjAjAjAjAjAjAkdjAjAjzjAjAjAjzjAjAjAjzjAjAkdjAjAjAaeaeaeaeaeaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaeaeaeaeaeaeaejAkfababababababababababababababababababababababababababababababababababaaaa
