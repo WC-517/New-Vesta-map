@@ -42,7 +42,7 @@
 "aP" = (/obj/effect/floor_decal/industrial/warning{dir = 8},/turf/simulated/floor/tiled/techfloor/grid,/area/casino)
 "aQ" = (/obj/effect/floor_decal/industrial/warning{dir = 9},/turf/simulated/floor/plating,/area/casino)
 "aR" = (/obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle,/obj/effect/floor_decal/industrial/warning{dir = 1},/turf/simulated/floor/plating,/area/casino)
-"aS" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/turf/simulated/floor/plating,/area/casino)
+"aS" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/machinery/shipsensors,/turf/simulated/floor/plating,/area/casino)
 "aT" = (/obj/effect/wallframe_spawn/reinforced/titanium,/turf/simulated/floor/plating,/area/casino)
 "aU" = (/obj/effect/floor_decal/industrial/warning/corner,/turf/simulated/floor/tiled/techfloor/grid,/area/casino)
 "aV" = (/obj/effect/floor_decal/industrial/warning/corner{dir = 8},/turf/simulated/floor/tiled/techfloor/grid,/area/casino)
