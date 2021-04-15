@@ -109,3 +109,23 @@
 /area/ship/smol/threeportnac
 	name = "\improper Third Deck Port Nacelle"
 	icon_state = "lazy"
+
+/area/ship/smol/gaunt/atmos
+	name = "\improper Gaunt Atmosphereics"
+	icon_state = "g-atmos"
+
+/area/ship/smol/gaunt/eng
+	name = "\improper Gaunt Engineering"
+	icon_state = "g-eng"
+
+/area/ship/smol/gaunt/cargo
+	name = "\improper Gaunt Cargo Hold"
+	icon_state = "g-cargo"
+
+/area/ship/smol/gaunt/passenger
+	name = "\improper Gaunt Passenger Hold"
+	icon_state = "g-pass"
+
+/area/ship/smol/gaunt/cockpit
+	name = "\improper Gaunt Cockpit"
+	icon_state = "g-pit"
